@@ -1210,6 +1210,996 @@
                 "x-colorless": 0,
                 "life": 0
             }
+        },
+        {
+            "id": 75,
+            "name": "Espionne coutelâme",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["elf", "rogue"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 76,
+            "name": "Séparation du groupe",
+            "rarity": "uncommon",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 77,
+            "name": "Révélation soudaine",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 78,
+            "name": "Fou rire de Tasha",
+            "rarity": "rare",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 79,
+            "name": "Talisman du farceur",
+            "rarity": "uncommon",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 80,
+            "name": "Métamorphose suprême",
+            "rarity": "rare",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 81,
+            "name": "Classe : magicien",
+            "rarity": "uncommon",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 82,
+            "name": "Grimoire de magicien",
+            "rarity": "rare",
+            "type": "artifact",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 5,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 83,
+            "name": "Vous arrivez à une rivière",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 84,
+            "name": "Vous trouvez le repaire des ennemis",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 85,
+            "name": "Vous voyez un garde approcher",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 86,
+            "name": "Malison yuan-ti",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["snake", "rogue"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 87,
+            "name": "Acérérak l'archiliche",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["zombie", "wizard"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 88,
+            "name": "Asmodée l'archifiélon",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["devil", "god"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 89,
+            "name": "Tyrannoeil sinistre",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["beholder"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 90,
+            "name": "Dragon noir",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["dragon"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 5,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 91,
+            "name": "Le livre de noire vilénie",
+            "rarity": "mythic",
+            "type": "legendary artifact",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 3,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 92,
+            "name": "Déceler les pièges",
+            "rarity": "uncommon",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 93,
+            "name": "Squelettes cliquetants",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["skeleton"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 94,
+            "name": "Dispute mortelle",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 95,
+            "name": "Nécroprêtresse de Myrkul",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["tiefling", "cleric"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 96,
+            "name": "Emprise du Démogorgon",
+            "rarity": "uncommon",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 97,
+            "name": "Dévorer l'intelligence",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 98,
+            "name": "Drider",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["elf", "spider"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 99,
+            "name": "Trimardeur du donjon",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["zombie"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 100,
+            "name": "Noiremort, dracoliche",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["zombie", "dragon"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 101,
+            "name": "Regard du tyrannoeil",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 102,
+            "name": "Intervention des Parques",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 103,
+            "name": "État cadavérique",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 104,
+            "name": "Paladine parjure",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["human", "knight"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 105,
+            "name": "Cube gélatineux",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["ooze"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 106,
+            "name": "Don sinistre",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 107,
+            "name": "Vagabond sinistre",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["goblin", "warlock"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 108,
+            "name": "Hérault de Hadar",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["human", "warlock"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 109,
+            "name": "Tourmenteur à gages",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["elf", "warlock"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 110,
+            "name": "Voleuse de magot",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["tiefling", "rogue"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 111,
+            "name": "Roublard pied-léger",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["halfling", "rogue"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 112,
+            "name": "Lolth, Reine Araignée",
+            "rarity": "mythic",
+            "type": "legendary planeswalker",
+            "subtypes": ["Lolth"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 113,
+            "name": "Manticore",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["manticore"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 114,
+            "name": "Mot de pouvoir mortel",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 115,
+            "name": "Chute abrupte",
+            "rarity": "common",
+            "type": "enchantment",
+            "subtypes": ["aura"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 116,
+            "name": "Rayon affaiblissant",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 117,
+            "name": "Talismant du faucheur",
+            "rarity": "uncommon",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 118,
+            "name": "Goule du sépulcre",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["zombie"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 119,
+            "name": "Blême titubante",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["zombie"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 120,
+            "name": "Marchande de Port-Crâne",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["dwarf", "citizen"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 121,
+            "name": "Sphère d'annihilation",
+            "rarity": "rare",
+            "type": "artifact",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 1,
+                "life": 0
+            }
+        },
+        {
+            "id": 122,
+            "name": "Outils de voleur",
+            "rarity": "common",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 123,
+            "name": "Vampirien",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["vampire"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 124,
+            "name": "Épée vorpale",
+            "rarity": "rare",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 125,
+            "name": "Classe : sorcier",
+            "rarity": "uncommon",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 126,
+            "name": "Régent de Port-Crâne",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["vampire"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 127,
+            "name": "Nécrophage",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["zombie", "soldier"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 128,
+            "name": "Lame-croc yuan-ti",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["snake", "rogue"],
+            "colors": ["black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 129,
+            "name": "Ogre zombie",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["zombie", "ogre"],
+            "colors": ["black"],
+            "cost": {
+                "black": 2,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
         }
     ]
 }
