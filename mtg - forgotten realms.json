@@ -1,0 +1,1215 @@
+{
+    "name": "Magic The Gathering - Forgotten Realms",
+    "type": "mtg",
+    "cards": [
+        {
+            "id": 1,
+            "name": "Masse d'armes +2",
+            "cost": {
+                "colorless": 3,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact",
+            "subtypes": [
+                "equipment"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 2,
+            "name": "Pégase d'Arborée",
+            "cost": {
+                "colorless": 3,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "pegasus"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 3,
+            "name": "Chien esquiveur",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "dog"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 4,
+            "name": "Le livre d'exaltation suprême",
+            "cost": {
+                "white": 3
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "legendary artifact",
+            "subtypes": [],
+            "rarity": "mythic"
+        },
+        {
+            "id": 5,
+            "name": "Licorne céleste",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "unicorn"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 6,
+            "name": "Classe: clerc",
+            "cost": {
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "enchantment",
+            "subtypes": [
+                "class"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 7,
+            "name": "Gargouille du cloître",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact creature",
+            "subtypes": [
+                "gargoyle"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 8,
+            "name": "Epée dansante",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact",
+            "subtypes": [
+                "equipment"
+            ],
+            "rarity": "rare"
+        },
+        {
+            "id": 9,
+            "name": "Clerc porteur de l'aube",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "cleric"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 10,
+            "name": "Torche du fouilleur",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact",
+            "subtypes": [
+                "equipment"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 11,
+            "name": "Paladine dévouée",
+            "cost": {
+                "colorless": 4,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "orc",
+                "knight"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 12,
+            "name": "Frappe divine",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "instant",
+            "subtypes": [],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 13,
+            "name": "Disciple du dragon",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "monk"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 14,
+            "name": "Championne de la forteresse naine",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "dwarf",
+                "warrior"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 15,
+            "name": "Flumph",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "jellyfish"
+            ],
+            "rarity": "rare"
+        },
+        {
+            "id": 16,
+            "name": "Pisteur des ténèbres",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "dwarf",
+                "ranger"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 17,
+            "name": "Grand maître des fleurs",
+            "cost": {
+                "colorless": 2,
+                "white": 2
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "legendary planeswalker",
+            "subtypes": [
+                "bahamut"
+            ],
+            "rarity": "mythic"
+        },
+        {
+            "id": 18,
+            "name": "Gardien de la foi",
+            "cost": {
+                "colorless": 1,
+                "white": 2
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "spirit",
+                "knight"
+            ],
+            "rarity": "rare"
+        },
+        {
+            "id": 19,
+            "name": "Moine demi-elfe",
+            "cost": {
+                "colorless": 3,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "monk"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 20,
+            "name": "Glacemort, tyran des glaces",
+            "cost": {
+                "colorless": 2,
+                "white": 2
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "legendary creature",
+            "subtypes": [
+                "dragon"
+            ],
+            "rarity": "mythic"
+        },
+        {
+            "id": 21,
+            "name": "Forgeronne ingénieuse",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "artificer"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 22,
+            "name": "Sentinelle à l'ouïe fine",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "soldier"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 23,
+            "name": "Chien de guerre loyal",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "dog"
+            ],
+            "rarity": "rare"
+        },
+        {
+            "id": 24,
+            "name": "Confinement minimal",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "enchantment",
+            "subtypes": [
+                "aura"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 25,
+            "name": "Moine de la main ouverte",
+            "cost": {
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "elf",
+                "monk"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 26,
+            "name": "Clerc bénie par la lune",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "elf",
+                "cleric"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 27,
+            "name": "Nadaar, paladin dévoué",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "legendary creature",
+            "subtypes": [
+                "dragon",
+                "knight"
+            ],
+            "rarity": "rare"
+        },
+        {
+            "id": 28,
+            "name": "Oswald Tordviolon",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "legendary creature",
+            "subtypes": [
+                "gnome",
+                "artificer"
+            ],
+            "rarity": "rare"
+        },
+        {
+            "id": 29,
+            "name": "Classe: paladin",
+            "cost": {
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "enchantment",
+            "subtypes": [
+                "class"
+            ],
+            "rarity": "rare"
+        },
+        {
+            "id": 30,
+            "name": "Bouclier de paladin",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact",
+            "subtypes": [
+                "equipment"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 31,
+            "name": "Alliée planaire",
+            "cost": {
+                "colorless": 3,
+                "white": 2
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "angel"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 32,
+            "name": "Armure de plates",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact",
+            "subtypes": [
+                "equipment"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 33,
+            "name": "Puits portable",
+            "cost": {
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact",
+            "subtypes": [],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 34,
+            "name": "Potion de guérison",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "artifact",
+            "subtypes": [],
+            "rarity": "common"
+        },
+        {
+            "id": 35,
+            "name": "Prêtre de la sapience ancestrale",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "dwarf",
+                "cleric"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 36,
+            "name": "Manoeuvre de ralliement",
+            "cost": {
+                "colorless": 2,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "instant",
+            "subtypes": [],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 37,
+            "name": "Faucon du rôdeur",
+            "cost": {
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "bird"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 38,
+            "name": "Paladine inébranlable",
+            "cost": {
+                "colorless": 1,
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "dwarf",
+                "knight"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 39,
+            "name": "Cercle de téléportation",
+            "cost": {
+                "white": 1,
+                "colorless": 3,
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "enchantment",
+            "subtypes": [],
+            "rarity": "rare"
+        },
+        {
+            "id": 40,
+            "name": "Exploratrice de donjon vétérane",
+            "cost": {
+                "white": 1,
+                "colorless": 3,
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "warrior"
+            ],
+            "rarity": "common"
+        },
+        {
+            "id": 41,
+            "name": "Dragon blanc",
+            "cost": {
+                "white": 2,
+                "colorless": 4,
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "creature",
+            "subtypes": [
+                "dragon"
+            ],
+            "rarity": "uncommon"
+        },
+        {
+            "id": 42,
+            "name": "Vous entendez quelque chose",
+            "cost": {
+                "white": 1,
+                "colorless": 1
+            },
+            "colors": [
+                "white"
+            ],
+            "type": "instant",
+            "subtypes": [],
+            "rarity": "common"
+        },
+        {
+            "id": 43,
+            "name": "Vous tombez dans une embuscade",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "cost": {
+                "white": 1
+            },
+            "colors": [
+                "white"
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Ensorceleuse à l'esprit aberrant",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": [
+                "human",
+                "elf",
+                "shaman"
+            ],
+            "cost": {
+                "blue": 1,
+                "colorless": 4
+            },
+            "colors": [
+                "blue"
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Elémental du culte de l'air",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["elemental"],
+            "colors": ["blue"],
+            "cost": {
+                "blue": 2,
+                "colorless": 4
+            }
+        },
+        {
+            "id": 46,
+            "name": "Enquêteur arcanique",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["elf", "wizard"],
+            "colors": ["blue"],
+            "cost": {
+                "blue": 1,
+                "colorless": 1,
+            }
+        },
+        {
+            "id": 47,
+            "name": "Bloquez le portali !",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "blue": 1,
+                "colorless": 2
+            }
+        },
+        {
+            "id": 48,
+            "name": "Le bâton Noir d'Eauprofonde",
+            "rarity": "rare",
+            "type": "legendary artifact",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "blue": 1
+            }
+        },
+        {
+            "id": 49,
+            "name": "Dragon bleu",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["dragon"],
+            "colors": ["blue"],
+            "cost": {
+                "blue": 2,
+                "colorless": 5
+            }
+        },
+        {
+            "id": 50,
+            "name": "Sommeil enchanté",
+            "rarity": "common",
+            "type": "enchantment",
+            "subtypes": ["aura"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 51,
+            "name": "Invocateur malin",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["gnome", "wizard"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 52,
+            "name": "Contact avec un autre plan",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 53,
+            "name": "Demi-liche",
+            "rarity": "mythic",
+            "type": "creature",
+            "subtypes": ["skeleton", "wizard"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 4,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 54,
+            "name": "Bête éclipsante",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["cat", "beast"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 55,
+            "name": "Djinn prophètevent",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["djinn"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 56,
+            "name": "Dragon-tortue",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["dragon", "turtle"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 57,
+            "name": "Apprentie excentrique",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["tiefling", "wizard"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 58,
+            "name": "Escroc de la Féerie sauvage",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["gnome", "warlock"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 59,
+            "name": "Envol",
+            "rarity": "uncommon",
+            "type": "enchantment",
+            "subtypes": ["aura"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 60,
+            "name": "Grazilaxx, érudit illithid",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["horror"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 61,
+            "name": "Voleuse de guilde",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["orc", "rogue"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 62,
+            "name": "Iymrith, Fléau du désert",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["dragon"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 63,
+            "name": "Flagelleur mental",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["horror"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 64,
+            "name": "Mordenkainen",
+            "rarity": "mythic",
+            "type": "legendary planeswalker",
+            "subtypes": ["Mordenkainen"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 65,
+            "name": "Polymorphe de Mordenkainen",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 66,
+            "name": "Guide pixie",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["fairy"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 67,
+            "name": "Pouvoir de persuasion",
+            "rarity": "uncommon",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 68,
+            "name": "Rayon de givre",
+            "rarity": "uncommon",
+            "type": "enchantment",
+            "subtypes": ["aura"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 69,
+            "name": "Géante du givre protégel",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["giant", "warrior"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 2,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 70,
+            "name": "Rejeton de la Stygie",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["tiefling", "shaman"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 71,
+            "name": "Passage secret",
+            "rarity": "common",
+            "type": "artifact creature",
+            "subtypes": ["wall"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 72,
+            "name": "Poigne électrique",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 73,
+            "name": "Chercheur de raccourcis",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["human", "rogue"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 74,
+            "name": "Corbeau d'argent",
+            "rarity": "common",
+            "type": "artifact creature",
+            "subtypes": ["bird"],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        }
+    ]
+}
