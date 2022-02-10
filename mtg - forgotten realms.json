@@ -2632,6 +2632,348 @@
                 "x-colorless": 0,
                 "life": 0
             }
+        },
+        {
+            "id": 145,
+            "name": "Projectile magique",
+            "rarity": "uncommon",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 155,
+            "name": "Nuée de météores",
+            "rarity": "rare",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 3,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 1,
+                "life": 0
+            }
+        },
+        {
+            "id": 156,
+            "name": "Mignon des puissants",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["kobold"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 157,
+            "name": "Orbe des dragons",
+            "rarity": "rare",
+            "type": "artifact",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 158,
+            "name": "Barbare saccageur",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["dwarf", "barbarian"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 159,
+            "name": "Prix de la loyauté",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 106,
+            "name": "Roublard pied-léger",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["dragon"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 161,
+            "name": "Oxydeur",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["beast"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 162,
+            "name": "Nuée de gobelins",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["goblin"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 163,
+            "name": "Chasseresse de la tribu du Tigre",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["human", "barbarian"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 164,
+            "name": "Aubaine inattendue",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 165,
+            "name": "Chanteur de vaillance",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["tiefling", "bard"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 166,
+            "name": "Souhait",
+            "rarity": "rare",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 167,
+            "name": "Xorn",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["elemental"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 168,
+            "name": "Vous arrivez au camp des gnolls",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 169,
+            "name": "Vous trouvez des prisonniers",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 170,
+            "name": "Vous voyez deux gobelins",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 171,
+            "name": "Zalto, duc des géants du feu",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["giant", "barbarian"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 172,
+            "name": "Zariel, archiduchesse d'Averne",
+            "rarity": "mythic",
+            "type": "legendary planeswalker",
+            "subtypes": ["Zariel"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
         }
     ]
 }
