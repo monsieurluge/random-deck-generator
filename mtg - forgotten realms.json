@@ -2200,6 +2200,438 @@
                 "x-colorless": 0,
                 "life": 0
             }
+        },
+        {
+            "id": 130,
+            "name": "Vétérane d'armurerie",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["orc", "warrior"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 131,
+            "name": "Classe : barbare",
+            "rarity": "uncommon",
+            "type": "enchantment",
+            "subtypes": ["equipment"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 132,
+            "name": "Gobelin au cri de guerre",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["goblin"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 133,
+            "name": "Bottes de rapidité",
+            "rarity": "common",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 134,
+            "name": "Nain d'airain",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["dwarf", "shaman"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 135,
+            "name": "Mains brûlantes",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 136,
+            "name": "Canaliseur de chaos",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["human", "shaman"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 137,
+            "name": "Coup critique",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 138,
+            "name": "Délina, mage sauvage",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["elf", "shaman"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 139,
+            "name": "Feu du dragon",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 140,
+            "name": "Rapière de duel",
+            "rarity": "common",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 141,
+            "name": "Élémental du culte de la Terre",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["elemental"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 142,
+            "name": "Boule de feu de Farideh",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 143,
+            "name": "Crânefeu",
+            "rarity": "mythic",
+            "type": "creature",
+            "subtypes": ["skeleton"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 144,
+            "name": "Javelinière gobeline",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["goblin", "warrior"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 145,
+            "name": "Morgenstern de gobelin",
+            "rarity": "uncommon",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 146,
+            "name": "Ogresse entasseuse",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["ogre"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 147,
+            "name": "Seigneur bandit hobgobelin",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["goblin", "rogue"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 148,
+            "name": "Capitaine hobgobeline",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["goblin", "barbarian"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 149,
+            "name": "Gobelours lourdaud",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["goblin"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 150,
+            "name": "Arsenal improvisé",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 151,
+            "name": "Fournaise des Monts Étoilés",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["dragon"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 2,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 152,
+            "name": "Épée à louer désabusée",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["dragon", "warrior"],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 153,
+            "name": "Enfoncer la porte",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
         }
     ]
 }
