@@ -15,5 +15,14 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "no-console": "error",
+        "no-cond-assign": "error",
+        "no-constant-condition": "error",
+        "no-unreachable": "error",
+        "no-unused-vars": "error",
+        "eqeqeq": ["error", "always"],
+        "max-lines-per-function": ["warn", { "max": 30 }],
+        "no-alert": "error",
+        "semi": ["error", "never"]
     }
 }
