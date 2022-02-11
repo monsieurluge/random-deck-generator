@@ -2974,6 +2974,780 @@
                 "x-colorless": 0,
                 "life": 0
             }
+        },
+        {
+            "id": 173,
+            "name": "Bulette",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["beast"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 174,
+            "name": "Force du taureau",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 175,
+            "name": "Choisissez votre arme",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 176,
+            "name": "Druide du cercle des rêves",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["elf", "druid"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 3,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 177,
+            "name": "Druide du cercle de la lune",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["human", "elf", "druid"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 178,
+            "name": "Duel forcé",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 179,
+            "name": "Rôdeur loup sanguinaire",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["wolf"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 180,
+            "name": "Classe : druide",
+            "rarity": "uncommon",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 181,
+            "name": "Ellywick Grattechambard",
+            "rarity": "mythic",
+            "type": "legendary planeswalker",
+            "subtypes": ["Ellywick"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 182,
+            "name": "Rôdeuse de l'Elturgard",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["human", "elf", "ranger"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 183,
+            "name": "Trouver un chemin",
+            "rarity": "common",
+            "type": "enchantment",
+            "subtypes": ["aura"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 184,
+            "name": "Craphémoth",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["frog", "horror"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 185,
+            "name": "Chasseur gnoll",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["gnoll"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 186,
+            "name": "Dragon vert",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["dragon"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 187,
+            "name": "Avaleur de bétail géant des collines",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["giant"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 188,
+            "name": "Marque du chasseur",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 189,
+            "name": "Barde inspirateur",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["elf", "bard"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 190,
+            "name": "Instrument des bardes",
+            "rarity": "rare",
+            "type": "legendary artifact",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 191,
+            "name": "Pérégrine intrépide",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["orc", "ranger"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 192,
+            "name": "Troll répugnant",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["troll"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 193,
+            "name": "Repos long",
+            "rarity": "rare",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 3,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 1,
+                "life": 0
+            }
+        },
+        {
+            "id": 194,
+            "name": "Enlaceur sournois",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["horror"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 195,
+            "name": "Dryade de Padhiver",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["dryad"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 196,
+            "name": "Gelée ocre",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["ooze"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 1,
+                "life": 0
+            }
+        },
+        {
+            "id": 197,
+            "name": "La Vieille Ronge-os",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["dragon"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 5,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 198,
+            "name": "Ours-hibou",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["bird", "bear"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 199,
+            "name": "Tomber à pic",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 200,
+            "name": "Aubergiste prospère",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["halfling", "citizen"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 201,
+            "name": "Ver pourpre",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["worm"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 5,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 202,
+            "name": "Classe : rôdeur",
+            "rarity": "rare",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 203,
+            "name": "Arc long du rôdeur",
+            "rarity": "common",
+            "type": "artifact",
+            "subtypes": ["equipment"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 204,
+            "name": "Herboriste écailleuse",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["lizard", "druid"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 205,
+            "name": "Butin de la chasse",
+            "rarity": "common",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 206,
+            "name": "Bergère sylvestre",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["human", "druid"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 207,
+            "name": "La tarasque",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["dinosaur"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 3,
+                "red": 0,
+                "white": 0,
+                "colorless": 6,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 208,
+            "name": "Basilic d'Outreterre",
+            "rarity": "common",
+            "type": "creature",
+            "subtypes": ["basilic"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 209,
+            "name": "Varis, rôdeur de Lunargent",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["human", "elf", "ranger"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 210,
+            "name": "Troubadouresse errante",
+            "rarity": "uncommon",
+            "type": "creature",
+            "subtypes": ["dragon", "bard"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 211,
+            "name": "Chef de meute de loups-garous",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["human", "werewolf"],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 212,
+            "name": "Forme sauvage",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 213,
+            "name": "Vous trouvez une idôle maudite",
+            "rarity": "common",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 214,
+            "name": "Vous débouchez sur une clairière",
+            "rarity": "uncommon",
+            "type": "instant",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 215,
+            "name": "Vous vous retrouvez à la taverne",
+            "rarity": "uncommon",
+            "type": "sorcery",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 2,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
         }
     ]
 }
