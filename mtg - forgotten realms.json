@@ -3748,6 +3748,438 @@
                 "x-colorless": 0,
                 "life": 0
             }
+        },
+        {
+            "id": 216,
+            "name": "Dragon d'or adulte",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["dragon"],
+            "colors": ["red", "white"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 1,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 217,
+            "name": "Classe : barde",
+            "rarity": "rare",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["red", "green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 218,
+            "name": "Barrowin du clan Undurr",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["dwarf", "cleric"],
+            "colors": ["white", "black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 1,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 219,
+            "name": "Bruenor Marteaudeguerre",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["dwarf", "warrior"],
+            "colors": ["red", "white"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 1,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 220,
+            "name": "Drizzt Do'Urden",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["elf", "ranger"],
+            "colors": ["green", "white"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 1,
+                "colorless": 3,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 221,
+            "name": "Farideh, élue du Diable",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["tiefling", "warlock"],
+            "colors": ["blue", "red"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 222,
+            "name": "Classe : guerrier",
+            "rarity": "rare",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["red", "white"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 1,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 223,
+            "name": "Gretchen Saulemouflet",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["halfling", "druid"],
+            "colors": ["green", "blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 224,
+            "name": "Hama Pashar, chercheuse de ruines",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["human", "wizard"],
+            "colors": ["white", "blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 1,
+                "colorless": 1,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 225,
+            "name": "Kalain, peintre solitaire",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["human", "elf", "bard"],
+            "colors": ["black", "red"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 226,
+            "name": "Krydle de la Porte de Baldur",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["human", "elf", "rogue"],
+            "colors": ["blue", "black"],
+            "cost": {
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 227,
+            "name": "Minsc, rôdeur apprécié",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["human", "ranger"],
+            "colors": ["red", "green", "white"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 1,
+                "white": 1,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 228,
+            "name": "Classe : moine",
+            "rarity": "rare",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["white", "blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 1,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 229,
+            "name": "Orcus, prince de la Non-Vie",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["demon"],
+            "colors": ["black", "red"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 1,
+                "life": 0
+            }
+        },
+        {
+            "id": 203,
+            "name": "Classe : roublard",
+            "rarity": "rare",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["blue", "black"],
+            "cost": {
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 231,
+            "name": "Shessra, murmure de la mort",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["human", "elf", "warlock"],
+            "colors": ["black", "green"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 232,
+            "name": "Nuée squelettique",
+            "rarity": "rare",
+            "type": "enchantment",
+            "subtypes": [],
+            "colors": ["black", "green"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 233,
+            "name": "Classe : ensorceleur",
+            "rarity": "rare",
+            "type": "enchantment",
+            "subtypes": ["class"],
+            "colors": ["blue", "red"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 0,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 234,
+            "name": "Tar Nar, gnoll croc-démon",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["gnoll"],
+            "colors": ["red", "green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 1,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 235,
+            "name": "Tiamat",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["dragon", "god"],
+            "colors": ["white", "blue", "black", "red", "green"],
+            "cost": {
+                "black": 1,
+                "blue": 1,
+                "green": 1,
+                "red": 1,
+                "white": 1,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 236,
+            "name": "Trelasarra, danseuse de la lune",
+            "rarity": "uncommon",
+            "type": "legendary creature",
+            "subtypes": ["elf", "cleric"],
+            "colors": ["green", "white"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 1,
+                "red": 0,
+                "white": 1,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 237,
+            "name": "Aventurier triomphant",
+            "rarity": "rare",
+            "type": "creature",
+            "subtypes": ["human", "knight"],
+            "colors": ["white", "black"],
+            "cost": {
+                "black": 1,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 1,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 238,
+            "name": "Volo, guide des monstres",
+            "rarity": "rare",
+            "type": "legendary creature",
+            "subtypes": ["human", "wizard"],
+            "colors": ["green", "blue"],
+            "cost": {
+                "black": 0,
+                "blue": 1,
+                "green": 1,
+                "red": 0,
+                "white": 0,
+                "colorless": 2,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 239,
+            "name": "Xanathar, baron de la guilde",
+            "rarity": "mythic",
+            "type": "legendary creature",
+            "subtypes": ["beholder"],
+            "colors": ["blue", "black"],
+            "cost": {
+                "black": 1,
+                "blue": 1,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 4,
+                "x-colorless": 0,
+                "life": 0
+            }
         }
     ]
 }
