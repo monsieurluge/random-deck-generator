@@ -4414,6 +4414,168 @@
                 "x-colorless": 0,
                 "life": 0
             }
-        }
+        },
+        {
+            "id": 253,
+            "name": "Grotte du dragon de givre",
+            "rarity": "rare",
+            "type": "land",
+            "subtypes": [],
+            "colors": ["white"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 254,
+            "name": "Tanière du gobelours",
+            "rarity": "rare",
+            "type": "land",
+            "subtypes": [],
+            "colors": ["red"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 255,
+            "name": "Descente dans le donjon",
+            "rarity": "rare",
+            "type": "land",
+            "subtypes": [],
+            "colors": [],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 256,
+            "name": "Étendues sauvages en évolution",
+            "rarity": "common",
+            "type": "land",
+            "subtypes": [],
+            "colors": [],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 257,
+            "name": "Halle des géants des tempêtes",
+            "rarity": "rare",
+            "type": "land",
+            "subtypes": [],
+            "colors": ["blue"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 258,
+            "name": "Essaim du despote tyrannoeil",
+            "rarity": "rare",
+            "type": "land",
+            "subtypes": [],
+            "colors": ["black"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 259,
+            "name": "Repaire de l'hydre",
+            "rarity": "rare",
+            "type": "land",
+            "subtypes": [],
+            "colors": ["green"],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 260,
+            "name": "Temple de la Reine des Dragons",
+            "rarity": "uncommon",
+            "type": "land",
+            "subtypes": [],
+            "colors": [],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
+        {
+            "id": 261,
+            "name": "Salle au trésor",
+            "rarity": "rare",
+            "type": "artifact land",
+            "subtypes": [],
+            "colors": [],
+            "cost": {
+                "black": 0,
+                "blue": 0,
+                "green": 0,
+                "red": 0,
+                "white": 0,
+                "colorless": 0,
+                "x-colorless": 0,
+                "life": 0
+            }
+        },
     ]
 }
