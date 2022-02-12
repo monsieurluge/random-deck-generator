@@ -8,7 +8,7 @@ const existingHtmlElement = (name: string): HTMLElement => {
     return element
 }
 
-export function HtmlUi (generator: Generator) {
+export function HtmlUi(generator: Generator): void {
     const generateButton = existingHtmlElement('#generate-button')
 
     const resultZone = existingHtmlElement('#deck-result')
