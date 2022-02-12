@@ -16,15 +16,20 @@
     ],
     "rules": {
         "comma-dangle": ["error", "always-multiline"],
+        "eqeqeq": ["error", "always"],
         "indent": ["error", 4],
-        "no-console": "error",
+        "max-lines-per-function": ["warn", { "max": 30 }],
+        "no-alert": "error",
         "no-cond-assign": "error",
+        "no-console": "error",
         "no-constant-condition": "error",
         "no-unreachable": "error",
         "no-unused-vars": "error",
-        "eqeqeq": ["error", "always"],
-        "max-lines-per-function": ["warn", { "max": 30 }],
-        "no-alert": "error",
-        "semi": ["error", "never"]
+        "semi": ["error", "never"],
+        "space-before-function-paren": ["error", {
+            "anonymous": "always",
+            "named": "never",
+            "asyncArrow": "always"
+        }]
     }
 }
