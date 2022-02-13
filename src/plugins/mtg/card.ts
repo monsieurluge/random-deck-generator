@@ -34,7 +34,6 @@ export interface ManaCost {
 }
 
 export interface Card {
-    id: number
     name: string
     rarity: Rarity
     type: CardType
