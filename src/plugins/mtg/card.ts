@@ -11,6 +11,7 @@ export type CardType =
     | 'sorcery'
     | 'creature'
     | 'enchantmnet'
+    | 'land'
     | 'legendary artifact'
     | 'legendary creature'
     | 'legendary planeswalker'
@@ -31,6 +32,7 @@ export interface ManaCost {
     white?: number
     colorless?: number
     xColorless?: boolean
+    nothing?: boolean
 }
 
 export interface MtgCard {
@@ -39,7 +41,7 @@ export interface MtgCard {
     type: CardType
     subtypes: string[]
     colors: Color[]
-    cost: ManaCost
+    cost: ManaCost[]
 }
 
 export type CardPool = {
