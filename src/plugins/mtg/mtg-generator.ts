@@ -1,13 +1,6 @@
 import { CardCollection } from '../../card-collection'
 import { Generator } from '../../generator'
-
-type WeightedItem<T> = { item: T, weight: number }
-
-const addRandomWeight = <T>(item: T): WeightedItem<T> => ({ item, weight: Math.random() })
-
-const heavierLast = <T>(a: WeightedItem<T>, b: WeightedItem<T>) => a.weight - b.weight
-
-const extractItem = <T>(weightenItem: WeightedItem<T>) => weightenItem.item
+import { addRandomWeight, extractItem, heavierLast } from '../../libs/weighten-sort'
 
 export function MtgGenerator(collection: CardCollection): Generator {
     function generate() {
