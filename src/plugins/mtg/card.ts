@@ -33,11 +33,16 @@ export interface ManaCost {
     xColorless?: boolean
 }
 
-export interface Card {
+export interface MtgCard {
     name: string
     rarity: Rarity
     type: CardType
     subtypes: string[]
     colors: Color[]
     cost: ManaCost
+}
+
+export type CardPool = {
+    card: MtgCard
+    total: 1 | 2 | 3 | 4
 }

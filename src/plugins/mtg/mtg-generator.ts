@@ -1,5 +1,5 @@
-import { CardCollection } from './card-collection'
-import { Generator } from './generator'
+import { CardCollection } from '../../card-collection'
+import { Generator } from '../../generator'
 
 type WeightedItem<T> = { item: T, weight: number }
 
@@ -9,7 +9,7 @@ const heavierLast = <T>(a: WeightedItem<T>, b: WeightedItem<T>) => a.weight - b.
 
 const extractItem = <T>(weightenItem: WeightedItem<T>) => weightenItem.item
 
-export function GenericGenerator(collection: CardCollection): Generator {
+export function MtgGenerator(collection: CardCollection): Generator {
     function generate() {
         return collection
             .cards()

@@ -1,9 +1,9 @@
 import { CardCollection } from '../../card-collection'
-import { Card } from './card'
+import { CardPool } from './card'
 
-export function MtgCardCollection(collection: Card[]): CardCollection {
+export function MtgCardCollection(pools: CardPool[]): CardCollection {
     function cards() {
-        return collection.map(card => card.name)
+        return pools.map(pool => pool.card.name)
     }
 
     return Object.freeze({ cards })
