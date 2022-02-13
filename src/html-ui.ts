@@ -8,13 +8,17 @@ const existingHtmlElement = (name: string): HTMLElement => {
     return element
 }
 
-export function HtmlUi(generator: Generator): void {
+export function HtmlUi(generator: Generator) {
     const generateButton = existingHtmlElement('#generate-button')
-
     const resultZone = existingHtmlElement('#deck-result')
 
-    generateButton.addEventListener('click', () => {
-        const test: string[] = generator.generate()
-        resultZone.innerHTML = test.join('<br/>')
-    })
+    const onGenerateButtonClick = () => {
+        resultZone.innerHTML = generator.generate().join('<br/>')
+    }
+
+    function boot(): void {
+        generateButton.addEventListener('click', onGenerateButtonClick)
+    }
+
+    return Object.freeze({ boot })
 }
