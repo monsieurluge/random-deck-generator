@@ -1,5 +1,10 @@
 import { MtgCard } from './card'
 
+export type CardOccurrence = {
+    card: MtgCard
+    total: number
+}
+
 export function Deck(max: number) {
     const cards: MtgCard[] = []
 
@@ -17,7 +22,7 @@ export function Deck(max: number) {
         if (card.type === 'basic land') {
             return
         }
-        if (occurrences(card.name) === 4) {
+        if (occurrences(card) === 4) {
             throw new Error(`there is already 4 cards in the deck: "${card.name}`)
         }
     }
@@ -28,12 +33,25 @@ export function Deck(max: number) {
         }
     }
 
-    function list(): MtgCard[] {
-        return cards
+    function list(): CardOccurrence[] {
+        const rawList: { name: string, occurrences: CardOccurrence }[] = []
+        cards.forEach(card => {
+            if (rawList.find(item => item.name === card.name)) {
+                return
+            }
+            rawList.push({
+                name: card.name,
+                occurrences: {
+                    card,
+                    total: occurrences(card),
+                },
+            })
+        })
+        return rawList.map(item => item.occurrences)
     }
 
-    function occurrences(name: string): number {
-        return cards.filter(card => card.name === name).length
+    function occurrences(target: MtgCard): number {
+        return cards.filter(card => card.name === target.name).length
     }
 
     return Object.freeze({

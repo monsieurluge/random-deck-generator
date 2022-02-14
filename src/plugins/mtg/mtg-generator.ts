@@ -2,7 +2,7 @@ import { Generator } from '../../generator'
 import { Plain } from './basic-land'
 import { MtgCard } from './card'
 import { and, colorIs, Constraint, not, ofType } from './constraints'
-import { Deck } from './deck'
+import { CardOccurrence, Deck } from './deck'
 import { CardCollection } from './mtg-card-collection'
 
 export function MtgGenerator(collection: CardCollection): Generator {
@@ -25,7 +25,9 @@ export function MtgGenerator(collection: CardCollection): Generator {
         while (deck.count() < size) {
             deck.add(collection.pick(whiteCardNotLand))
         }
-        return deck.list().map(card => card.name)
+        return deck
+            .list()
+            .map((occurrence: CardOccurrence) => `${occurrence.total} __ ${occurrence.card.name}`)
     }
 
     return Object.freeze({
