@@ -18,7 +18,6 @@
         "comma-dangle": ["error", "always-multiline"],
         "eqeqeq": ["error", "always"],
         "indent": ["error", 4],
-        "max-lines-per-function": ["warn", { "max": 30 }],
         "no-alert": "error",
         "no-cond-assign": "error",
         "no-console": "error",

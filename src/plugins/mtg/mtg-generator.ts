@@ -2,6 +2,7 @@ import { Generator } from '../../generator'
 import { Plain } from './basic-land'
 import { MtgCard } from './card'
 import { and, colorIs, Constraint, notType } from './constraints'
+import { Deck } from './deck'
 import { CardCollection } from './mtg-card-collection'
 
 export function MtgGenerator(collection: CardCollection): Generator {
@@ -14,16 +15,17 @@ export function MtgGenerator(collection: CardCollection): Generator {
     }
 
     function generate(): string[] {
-        const expected = 40
-        const deck: MtgCard[] = basicPlains(16)
-        const constraints: Constraint = and([
+        const size = 40
+        const deck = Deck(size)
+        basicPlains(16).forEach(deck.add)
+        const whiteCardNotLand: Constraint = and([
             colorIs('white'),
             notType('land'),
         ])
-        while (deck.length < expected) {
-            deck.push(collection.pick(constraints))
+        while (deck.count() < size) {
+            deck.add(collection.pick(whiteCardNotLand))
         }
-        return deck.map(card => card.name)
+        return deck.list().map(card => card.name)
     }
 
     return Object.freeze({

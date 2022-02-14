@@ -6,6 +6,7 @@ export type Rarity =
 
 export type CardType =
     'artifact'
+    | 'basic land'
     | 'creature'
     | 'instant'
     | 'sorcery'
