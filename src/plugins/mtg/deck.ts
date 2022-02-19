@@ -1,7 +1,7 @@
 import { MtgCard } from './card'
 import { CardOccurrence } from './card-occurrence'
 
-export function Deck(max: number) {
+export function Deck(size: number) {
     const cards: MtgCard[] = []
 
     function add(card: MtgCard): void {
@@ -30,8 +30,8 @@ export function Deck(max: number) {
     }
 
     function expectDeckIsNotFull(): void {
-        if (cards.length === max) {
-            throw new Error(`the deck is full (${max} cards)`)
+        if (cards.length === size) {
+            throw new Error(`the deck is full (${size} cards)`)
         }
     }
 
