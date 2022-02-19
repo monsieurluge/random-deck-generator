@@ -2,10 +2,10 @@ import { CardPool, MtgCard } from './card'
 import { Constraint } from './constraints'
 
 export interface CardCollection {
-    pick(): MtgCard
+    pick(constraint: Constraint): MtgCard
 }
 
-export function MtgCardCollection(pools: CardPool[]) {
+export function MtgCardCollection(pools: CardPool[]): CardCollection {
     function pick(constraint: Constraint): MtgCard {
         const filteredPools: CardPool[] = pools.filter((pool: CardPool) => constraint(pool.card))
         if (filteredPools.length === 0) {

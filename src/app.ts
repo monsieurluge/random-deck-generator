@@ -4,9 +4,10 @@ import { CardPool } from './plugins/mtg/card'
 import { MtgCardCollection } from './plugins/mtg/mtg-card-collection'
 import { MtgGenerator } from './plugins/mtg/mtg-generator'
 
+const pools: CardPool[] = collection.pools
 const ui = HtmlUi(
     MtgGenerator(
-        MtgCardCollection(collection.pool as CardPool[]),
+        MtgCardCollection(pools),
     ),
 )
 

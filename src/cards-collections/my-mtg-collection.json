@@ -1,5 +1,5 @@
 {
-    "pool": [
+    "pools": [
         {
             "total": 4,
             "card": {
@@ -690,7 +690,7 @@
                 "name": "Cercle de téléportation",
                 "cost": {
                     "white": 1,
-                    "colorless": 3,
+                    "colorless": 3
                 },
                 "colors": [
                     "white"
@@ -706,7 +706,7 @@
                 "name": "Exploratrice de donjon vétérane",
                 "cost": {
                     "white": 1,
-                    "colorless": 3,
+                    "colorless": 3
                 },
                 "colors": [
                     "white"
@@ -725,7 +725,7 @@
                 "name": "Dragon blanc",
                 "cost": {
                     "white": 2,
-                    "colorless": 4,
+                    "colorless": 4
                 },
                 "colors": [
                     "white"
@@ -812,7 +812,7 @@
                 "colors": ["blue"],
                 "cost": {
                     "blue": 1,
-                    "colorless": 1,
+                    "colorless": 1
                 }
             }
         },
