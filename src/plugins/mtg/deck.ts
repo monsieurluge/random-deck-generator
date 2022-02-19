@@ -14,6 +14,12 @@ export function Deck(max: number) {
         cards.push(card)
     }
 
+    function addMany(total: number, card: MtgCard): void {
+        for (let i = 0; i < total; i++) {
+            add(card)
+        }
+    }
+
     function count(): number {
         return cards.length
     }
@@ -56,6 +62,7 @@ export function Deck(max: number) {
 
     return Object.freeze({
         add,
+        addMany,
         count,
         list,
     })
