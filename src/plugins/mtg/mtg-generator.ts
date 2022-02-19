@@ -1,7 +1,8 @@
 import { Generator } from '../../generator'
 import { Plain } from './basic-land'
+import { CardOccurrence } from './card-occurrence'
 import { and, colorIs, Constraint, not, ofType } from './constraints'
-import { CardOccurrence, Deck } from './deck'
+import { Deck } from './deck'
 import { CardCollection } from './mtg-card-collection'
 
 export function MtgGenerator(collection: CardCollection): Generator {

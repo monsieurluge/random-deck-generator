@@ -1,9 +1,5 @@
 import { MtgCard } from './card'
-
-export type CardOccurrence = {
-    card: MtgCard
-    total: number
-}
+import { CardOccurrence } from './card-occurrence'
 
 export function Deck(max: number) {
     const cards: MtgCard[] = []
