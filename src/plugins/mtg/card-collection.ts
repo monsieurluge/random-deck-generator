@@ -1,4 +1,5 @@
-import { CardPool, MtgCard } from './card'
+import { CardPool } from './card-pool'
+import { MtgCard } from './card/card'
 import { Constraint } from './constraints'
 
 export interface CardCollection {

@@ -1,4 +1,6 @@
-import { Generator } from './generator'
+import { CardOccurrence } from './generator/card-occurrence'
+import { Deck } from './generator/deck'
+import { Generator } from './generator/generator'
 
 const existingHtmlElement = (name: string): HTMLElement => {
     const element: HTMLElement | null = document.querySelector(name)
@@ -8,17 +10,23 @@ const existingHtmlElement = (name: string): HTMLElement => {
     return element
 }
 
-export function HtmlUi(generator: Generator) {
+export function HtmlUi<T>(generator: Generator<T>) {
     const generateButton = existingHtmlElement('#generate-button')
     const resultZone = existingHtmlElement('#deck-result')
 
     const onGenerateButtonClick = () => {
-        resultZone.innerHTML = generator.generate().join('<br/>')
+        const deck: Deck<T> = generator.generate()
+        resultZone.innerHTML = deck
+            .list()
+            .map((occurrence: CardOccurrence) => `${occurrence.total} __ ${occurrence.card.name}`)
+            .join('<br/>')
     }
 
     function boot(): void {
         generateButton.addEventListener('click', onGenerateButtonClick)
     }
 
-    return Object.freeze({ boot })
+    return Object.freeze({
+        boot,
+    })
 }

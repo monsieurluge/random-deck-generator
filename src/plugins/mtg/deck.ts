@@ -1,7 +1,8 @@
-import { MtgCard } from './card'
-import { CardOccurrence } from './card-occurrence'
+import { CardOccurrence } from '../../generator/card-occurrence'
+import { Deck } from '../../generator/deck'
+import { MtgCard } from './card/card'
 
-export function Deck(size: number) {
+export function MtgDeck(size: number): Deck<MtgCard> {
     const cards: MtgCard[] = []
 
     function add(card: MtgCard): void {

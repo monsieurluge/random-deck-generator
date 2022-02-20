@@ -1,8 +1,8 @@
 import collection from './cards-collections/my-mtg-collection.json'
 import { HtmlUi } from './html-ui'
-import { CardPool } from './plugins/mtg/card'
-import { MtgCardCollection } from './plugins/mtg/mtg-card-collection'
-import { MtgGenerator } from './plugins/mtg/mtg-generator'
+import { MtgCardCollection } from './plugins/mtg/card-collection'
+import { CardPool } from './plugins/mtg/card-pool'
+import { MtgGenerator } from './plugins/mtg/generator'
 
 const pools: CardPool[] = collection.pools
 const ui = HtmlUi(

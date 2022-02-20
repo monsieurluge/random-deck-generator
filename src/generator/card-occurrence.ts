@@ -1,6 +1,6 @@
-import { MtgCard } from './card'
+import { Card } from './card'
 
 export type CardOccurrence = {
-    card: MtgCard
+    card: Card
     total: number
 }
