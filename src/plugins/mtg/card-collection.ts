@@ -1,12 +1,9 @@
+import { CardCollection } from '../../generator/collection'
 import { CardPool } from './card-pool'
 import { MtgCard } from './card/card'
 import { Constraint } from './constraints'
 
-export interface CardCollection {
-    pick(constraint: Constraint): MtgCard
-}
-
-export function MtgCardCollection(pools: CardPool[]): CardCollection {
+export function MtgCardCollection(pools: CardPool[]): CardCollection<MtgCard> {
     function pick(constraint: Constraint): MtgCard {
         const filteredPools: CardPool[] = pools.filter((pool: CardPool) => constraint(pool.card))
         if (filteredPools.length === 0) {
