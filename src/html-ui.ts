@@ -14,16 +14,20 @@ export function HtmlUi<T>(generator: Generator<T>) {
     const generateButton = existingHtmlElement('#generate-button')
     const resultZone = existingHtmlElement('#deck-result')
 
-    const onGenerateButtonClick = () => {
+    const onGenerateButtonClick = () => generateDeck()
+
+    function boot(): void {
+        generateButton.addEventListener('click', onGenerateButtonClick)
+
+        generateDeck()
+    }
+
+    function generateDeck() {
         const deck: Deck<T> = generator.generate()
         resultZone.innerHTML = deck
             .list()
             .map((occurrence: CardOccurrence) => `${occurrence.total} __ ${occurrence.card.name}`)
             .join('<br/>')
-    }
-
-    function boot(): void {
-        generateButton.addEventListener('click', onGenerateButtonClick)
     }
 
     return Object.freeze({
