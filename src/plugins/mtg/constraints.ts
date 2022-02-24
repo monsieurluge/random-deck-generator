@@ -1,4 +1,6 @@
-import { CardType, Color, MtgCard } from './card'
+import { MtgCard } from './card/card'
+import { CardType } from './card/card-type'
+import { Color } from './card/color'
 
 export type Constraint = (card: MtgCard) => boolean
 
