@@ -22,8 +22,8 @@ export function HtmlUi<T>(generator: Generator<T>) {
         generateDeck()
     }
 
-    function generateDeck() {
-        const deck: Deck<T> = generator.generate()
+    async function generateDeck() {
+        const deck: Deck<T> = await generator.generate()
         resultZone.innerHTML = deck
             .list()
             .map((occurrence: CardOccurrence) => `${occurrence.total} __ ${occurrence.card.name}`)

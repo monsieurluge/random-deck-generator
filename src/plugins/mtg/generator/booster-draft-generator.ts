@@ -1,27 +1,32 @@
 import { CardCollection } from '../../../generator/collection'
 import { Deck } from '../../../generator/deck'
 import { Generator } from '../../../generator/generator'
-import { Plain } from '../card/basic-land'
 import { MtgCard } from '../card/card'
-import { firstEncountered } from '../constraints'
-import { MtgDeck } from '../deck'
-import { DraftBooster } from './booster'
+import { DraftBooster } from '../draft/draft-booster'
+import { DumbDraftPlayer } from '../draft/dumb-draft-player'
 
 // simulates a 8 player draft, with set boosters
 export function BoosterDraftGenerator(collection: CardCollection<MtgCard>): Generator<MtgCard> {
-    function generate(): Deck<MtgCard> {
-        const size = 40
-        const deck = MtgDeck(size)
-        deck.addMany(16, Plain)
-        const openedBooster1 = DraftBooster(collection).open()
-        const openedBooster2 = DraftBooster(collection).open()
-        while (deck.count() < size && openedBooster1.remaining() > 0) {
-            deck.add(openedBooster1.pick(firstEncountered))
-        }
-        while (deck.count() < size && openedBooster2.remaining() > 0) {
-            deck.add(openedBooster2.pick(firstEncountered))
-        }
-        return deck
+    async function generate(): Promise<Deck<MtgCard>> {
+        const players = [
+            DumbDraftPlayer('Tom'),
+            DumbDraftPlayer('Richard'),
+            DumbDraftPlayer('Michelle'),
+            DumbDraftPlayer('Dana'),
+            DumbDraftPlayer('Alexander'),
+            DumbDraftPlayer('Emily'),
+            DumbDraftPlayer('Arthur'),
+            DumbDraftPlayer('Sarah'),
+        ]
+
+        players.forEach((player, index) => {
+            const neighborIndex = index + 1 >= players.length ? 0 : index + 1
+            player.changeNeighbor(players[neighborIndex])
+        })
+
+        await Promise.all(players.map(player => player.draft(DraftBooster(collection))))
+
+        return players[0].deck
     }
 
     return Object.freeze({
