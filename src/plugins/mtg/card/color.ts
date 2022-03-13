@@ -1,7 +1,7 @@
 export type Color =
     'blue'
     | 'black'
-    | 'colorless'
+    | 'generic'
     | 'green'
     | 'red'
     | 'white'

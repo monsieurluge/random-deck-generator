@@ -4,7 +4,7 @@ export interface ManaCost {
     green?: number
     red?: number
     white?: number
-    colorless?: number
-    xColorless?: boolean
+    generic?: number
+    xGeneric?: boolean
     nothing?: boolean
 }
