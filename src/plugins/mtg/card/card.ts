@@ -4,6 +4,7 @@ import { ManaCost } from './mana-cost'
 import { Rarity } from './rarity'
 
 export interface MtgCard {
+    id: string
     name: string
     rarity: Rarity
     type: CardType

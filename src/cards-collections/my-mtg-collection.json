@@ -3,6 +3,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-1",
                 "name": "Masse d'armes +2",
                 "cost": {
                     "generic": 3,
@@ -21,6 +22,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-2",
                 "name": "Pégase d'Arborée",
                 "cost": {
                     "generic": 3,
@@ -39,6 +41,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-3",
                 "name": "Chien esquiveur",
                 "cost": {
                     "generic": 2,
@@ -57,6 +60,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-4",
                 "name": "Le livre d'exaltation suprême",
                 "cost": {
                     "white": 3
@@ -72,6 +76,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-5",
                 "name": "Licorne céleste",
                 "cost": {
                     "generic": 2,
@@ -90,6 +95,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-6",
                 "name": "Classe: clerc",
                 "cost": {
                     "white": 1
@@ -107,6 +113,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-7",
                 "name": "Gargouille du cloître",
                 "cost": {
                     "generic": 2,
@@ -125,6 +132,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-8",
                 "name": "Epée dansante",
                 "cost": {
                     "generic": 1,
@@ -143,6 +151,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-9",
                 "name": "Clerc porteur de l'aube",
                 "cost": {
                     "generic": 1,
@@ -162,6 +171,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-10",
                 "name": "Torche du fouilleur",
                 "cost": {
                     "generic": 1,
@@ -180,6 +190,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-11",
                 "name": "Paladine dévouée",
                 "cost": {
                     "generic": 4,
@@ -199,6 +210,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-12",
                 "name": "Frappe divine",
                 "cost": {
                     "generic": 1,
@@ -215,6 +227,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-13",
                 "name": "Disciple du dragon",
                 "cost": {
                     "generic": 1,
@@ -234,6 +247,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-14",
                 "name": "Championne de la forteresse naine",
                 "cost": {
                     "generic": 1,
@@ -253,6 +267,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-15",
                 "name": "Flumph",
                 "cost": {
                     "generic": 1,
@@ -271,6 +286,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-16",
                 "name": "Pisteur des ténèbres",
                 "cost": {
                     "generic": 2,
@@ -290,6 +306,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-17",
                 "name": "Grand maître des fleurs",
                 "cost": {
                     "generic": 2,
@@ -308,6 +325,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-18",
                 "name": "Gardien de la foi",
                 "cost": {
                     "generic": 1,
@@ -327,6 +345,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-19",
                 "name": "Moine demi-elfe",
                 "cost": {
                     "generic": 3,
@@ -346,6 +365,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-20",
                 "name": "Glacemort, tyran des glaces",
                 "cost": {
                     "generic": 2,
@@ -364,6 +384,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-21",
                 "name": "Forgeronne ingénieuse",
                 "cost": {
                     "generic": 1,
@@ -383,6 +404,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-22",
                 "name": "Sentinelle à l'ouïe fine",
                 "cost": {
                     "generic": 1,
@@ -402,6 +424,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-23",
                 "name": "Chien de guerre loyal",
                 "cost": {
                     "generic": 1,
@@ -420,6 +443,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-24",
                 "name": "Confinement minimal",
                 "cost": {
                     "generic": 2,
@@ -438,6 +462,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-25",
                 "name": "Moine de la main ouverte",
                 "cost": {
                     "white": 1
@@ -456,6 +481,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-26",
                 "name": "Clerc bénie par la lune",
                 "cost": {
                     "generic": 2,
@@ -476,6 +502,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-27",
                 "name": "Nadaar, paladin dévoué",
                 "cost": {
                     "generic": 2,
@@ -495,6 +522,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-28",
                 "name": "Oswald Tordviolon",
                 "cost": {
                     "generic": 1,
@@ -514,6 +542,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-29",
                 "name": "Classe: paladin",
                 "cost": {
                     "white": 1
@@ -531,6 +560,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-30",
                 "name": "Bouclier de paladin",
                 "cost": {
                     "generic": 1,
@@ -549,6 +579,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-31",
                 "name": "Alliée planaire",
                 "cost": {
                     "generic": 3,
@@ -567,6 +598,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-32",
                 "name": "Armure de plates",
                 "cost": {
                     "generic": 2,
@@ -585,6 +617,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-33",
                 "name": "Puits portable",
                 "cost": {
                     "white": 1
@@ -600,6 +633,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-34",
                 "name": "Potion de guérison",
                 "cost": {
                     "generic": 1,
@@ -616,6 +650,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-35",
                 "name": "Prêtre de la sapience ancestrale",
                 "cost": {
                     "generic": 2,
@@ -635,6 +670,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-36",
                 "name": "Manoeuvre de ralliement",
                 "cost": {
                     "generic": 2,
@@ -651,6 +687,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-37",
                 "name": "Faucon du rôdeur",
                 "cost": {
                     "white": 1
@@ -668,6 +705,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-38",
                 "name": "Paladine inébranlable",
                 "cost": {
                     "generic": 1,
@@ -687,6 +725,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-39",
                 "name": "Cercle de téléportation",
                 "cost": {
                     "white": 1,
@@ -703,6 +742,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-40",
                 "name": "Exploratrice de donjon vétérane",
                 "cost": {
                     "white": 1,
@@ -722,6 +762,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-41",
                 "name": "Dragon blanc",
                 "cost": {
                     "white": 2,
@@ -740,6 +781,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-42",
                 "name": "Vous entendez quelque chose",
                 "cost": {
                     "white": 1,
@@ -756,6 +798,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-43",
                 "name": "Vous tombez dans une embuscade",
                 "rarity": "common",
                 "type": "instant",
@@ -771,6 +814,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-44",
                 "name": "Ensorceleuse à l'esprit aberrant",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -791,6 +835,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-45",
                 "name": "Elémental du culte de l'air",
                 "rarity": "common",
                 "type": "creature",
@@ -805,6 +850,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-46",
                 "name": "Enquêteur arcanique",
                 "rarity": "common",
                 "type": "creature",
@@ -819,6 +865,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-47",
                 "name": "Bloquez le portail !",
                 "rarity": "common",
                 "type": "instant",
@@ -833,6 +880,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-48",
                 "name": "Le bâton Noir d'Eauprofonde",
                 "rarity": "rare",
                 "type": "legendary artifact",
@@ -846,6 +894,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-49",
                 "name": "Dragon bleu",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -860,6 +909,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-50",
                 "name": "Sommeil enchanté",
                 "rarity": "common",
                 "type": "enchantment",
@@ -879,6 +929,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-51",
                 "name": "Invocateur malin",
                 "rarity": "common",
                 "type": "creature",
@@ -898,6 +949,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-52",
                 "name": "Contact avec un autre plan",
                 "rarity": "common",
                 "type": "instant",
@@ -917,6 +969,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-53",
                 "name": "Demi-liche",
                 "rarity": "mythic",
                 "type": "creature",
@@ -936,6 +989,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-54",
                 "name": "Bête éclipsante",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -955,6 +1009,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-55",
                 "name": "Djinn prophètevent",
                 "rarity": "common",
                 "type": "creature",
@@ -974,6 +1029,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-56",
                 "name": "Dragon-tortue",
                 "rarity": "rare",
                 "type": "creature",
@@ -993,6 +1049,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-57",
                 "name": "Apprentie excentrique",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1012,6 +1069,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-58",
                 "name": "Escroc de la Féerie sauvage",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1031,6 +1089,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-59",
                 "name": "Envol",
                 "rarity": "uncommon",
                 "type": "enchantment",
@@ -1050,6 +1109,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-60",
                 "name": "Grazilaxx, érudit illithid",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -1069,6 +1129,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-61",
                 "name": "Voleuse de guilde",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1088,6 +1149,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-62",
                 "name": "Iymrith, Fléau du désert",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -1107,6 +1169,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-63",
                 "name": "Flagelleur mental",
                 "rarity": "rare",
                 "type": "creature",
@@ -1126,6 +1189,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-64",
                 "name": "Mordenkainen",
                 "rarity": "mythic",
                 "type": "legendary planeswalker",
@@ -1145,6 +1209,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-65",
                 "name": "Polymorphe de Mordenkainen",
                 "rarity": "common",
                 "type": "instant",
@@ -1164,6 +1229,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-66",
                 "name": "Guide pixie",
                 "rarity": "common",
                 "type": "creature",
@@ -1183,6 +1249,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-67",
                 "name": "Pouvoir de persuasion",
                 "rarity": "uncommon",
                 "type": "sorcery",
@@ -1202,6 +1269,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-68",
                 "name": "Rayon de givre",
                 "rarity": "uncommon",
                 "type": "enchantment",
@@ -1221,6 +1289,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-69",
                 "name": "Géante du givre protégel",
                 "rarity": "common",
                 "type": "creature",
@@ -1240,6 +1309,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-70",
                 "name": "Rejeton de la Stygie",
                 "rarity": "common",
                 "type": "creature",
@@ -1259,6 +1329,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-71",
                 "name": "Passage secret",
                 "rarity": "common",
                 "type": "artifact creature",
@@ -1278,6 +1349,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-72",
                 "name": "Poigne électrique",
                 "rarity": "common",
                 "type": "instant",
@@ -1297,6 +1369,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-73",
                 "name": "Chercheur de raccourcis",
                 "rarity": "common",
                 "type": "creature",
@@ -1316,6 +1389,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-74",
                 "name": "Corbeau d'argent",
                 "rarity": "common",
                 "type": "artifact creature",
@@ -1335,6 +1409,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-75",
                 "name": "Espionne coutelâme",
                 "rarity": "common",
                 "type": "creature",
@@ -1354,6 +1429,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-76",
                 "name": "Séparation du groupe",
                 "rarity": "uncommon",
                 "type": "sorcery",
@@ -1373,6 +1449,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-77",
                 "name": "Révélation soudaine",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -1392,6 +1469,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-78",
                 "name": "Fou rire de Tasha",
                 "rarity": "rare",
                 "type": "sorcery",
@@ -1411,6 +1489,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-79",
                 "name": "Talisman du farceur",
                 "rarity": "uncommon",
                 "type": "artifact",
@@ -1430,6 +1509,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-80",
                 "name": "Métamorphose suprême",
                 "rarity": "rare",
                 "type": "instant",
@@ -1449,6 +1529,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-81",
                 "name": "Classe : magicien",
                 "rarity": "uncommon",
                 "type": "enchantment",
@@ -1468,6 +1549,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-82",
                 "name": "Grimoire de magicien",
                 "rarity": "rare",
                 "type": "artifact",
@@ -1487,6 +1569,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-83",
                 "name": "Vous arrivez à une rivière",
                 "rarity": "common",
                 "type": "instant",
@@ -1506,6 +1589,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-84",
                 "name": "Vous trouvez le repaire des ennemis",
                 "rarity": "common",
                 "type": "instant",
@@ -1525,6 +1609,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-85",
                 "name": "Vous voyez un garde approcher",
                 "rarity": "common",
                 "type": "instant",
@@ -1544,6 +1629,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-86",
                 "name": "Malison yuan-ti",
                 "rarity": "rare",
                 "type": "creature",
@@ -1563,6 +1649,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-87",
                 "name": "Acérérak l'archiliche",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -1582,6 +1669,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-88",
                 "name": "Asmodée l'archifiélon",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -1601,6 +1689,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-89",
                 "name": "Tyrannoeil sinistre",
                 "rarity": "common",
                 "type": "creature",
@@ -1620,6 +1709,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-90",
                 "name": "Dragon noir",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1639,6 +1729,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-91",
                 "name": "Le livre de noire vilénie",
                 "rarity": "mythic",
                 "type": "legendary artifact",
@@ -1658,6 +1749,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-92",
                 "name": "Déceler les pièges",
                 "rarity": "uncommon",
                 "type": "sorcery",
@@ -1677,6 +1769,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-93",
                 "name": "Squelettes cliquetants",
                 "rarity": "common",
                 "type": "creature",
@@ -1696,6 +1789,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-94",
                 "name": "Dispute mortelle",
                 "rarity": "common",
                 "type": "instant",
@@ -1715,6 +1809,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-95",
                 "name": "Nécroprêtresse de Myrkul",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1734,6 +1829,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-96",
                 "name": "Emprise du Démogorgon",
                 "rarity": "uncommon",
                 "type": "sorcery",
@@ -1753,6 +1849,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-97",
                 "name": "Dévorer l'intelligence",
                 "rarity": "common",
                 "type": "sorcery",
@@ -1772,6 +1869,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-98",
                 "name": "Drider",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1791,6 +1889,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-99",
                 "name": "Trimardeur du donjon",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1810,6 +1909,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-100",
                 "name": "Noiremort, dracoliche",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -1829,6 +1929,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-101",
                 "name": "Regard du tyrannoeil",
                 "rarity": "common",
                 "type": "instant",
@@ -1848,6 +1949,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-102",
                 "name": "Intervention des Parques",
                 "rarity": "common",
                 "type": "sorcery",
@@ -1867,6 +1969,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-103",
                 "name": "État cadavérique",
                 "rarity": "common",
                 "type": "instant",
@@ -1886,6 +1989,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-104",
                 "name": "Paladine parjure",
                 "rarity": "rare",
                 "type": "creature",
@@ -1905,6 +2009,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-105",
                 "name": "Cube gélatineux",
                 "rarity": "rare",
                 "type": "creature",
@@ -1924,6 +2029,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-106",
                 "name": "Don sinistre",
                 "rarity": "common",
                 "type": "sorcery",
@@ -1943,6 +2049,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-107",
                 "name": "Vagabond sinistre",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -1962,6 +2069,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-108",
                 "name": "Hérault de Hadar",
                 "rarity": "common",
                 "type": "creature",
@@ -1981,6 +2089,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-109",
                 "name": "Tourmenteur à gages",
                 "rarity": "common",
                 "type": "creature",
@@ -2000,6 +2109,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-110",
                 "name": "Voleuse de magot",
                 "rarity": "common",
                 "type": "creature",
@@ -2019,6 +2129,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-111",
                 "name": "Roublard pied-léger",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -2038,6 +2149,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-112",
                 "name": "Lolth, Reine Araignée",
                 "rarity": "mythic",
                 "type": "legendary planeswalker",
@@ -2057,6 +2169,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-113",
                 "name": "Manticore",
                 "rarity": "common",
                 "type": "creature",
@@ -2076,6 +2189,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-114",
                 "name": "Mot de pouvoir mortel",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -2095,6 +2209,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-115",
                 "name": "Chute abrupte",
                 "rarity": "common",
                 "type": "enchantment",
@@ -2114,6 +2229,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-116",
                 "name": "Rayon affaiblissant",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -2133,6 +2249,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-117",
                 "name": "Talismant du faucheur",
                 "rarity": "uncommon",
                 "type": "artifact",
@@ -2152,6 +2269,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-118",
                 "name": "Goule du sépulcre",
                 "rarity": "common",
                 "type": "creature",
@@ -2171,6 +2289,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-119",
                 "name": "Blême titubante",
                 "rarity": "common",
                 "type": "creature",
@@ -2190,6 +2309,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-120",
                 "name": "Marchande de Port-Crâne",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -2209,6 +2329,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-121",
                 "name": "Sphère d'annihilation",
                 "rarity": "rare",
                 "type": "artifact",
@@ -2228,6 +2349,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-122",
                 "name": "Outils de voleur",
                 "rarity": "common",
                 "type": "artifact",
@@ -2247,6 +2369,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-123",
                 "name": "Vampirien",
                 "rarity": "common",
                 "type": "creature",
@@ -2266,6 +2389,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-124",
                 "name": "Épée vorpale",
                 "rarity": "rare",
                 "type": "artifact",
@@ -2285,6 +2409,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-125",
                 "name": "Classe : sorcier",
                 "rarity": "uncommon",
                 "type": "enchantment",
@@ -2304,6 +2429,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-126",
                 "name": "Régent de Port-Crâne",
                 "rarity": "rare",
                 "type": "creature",
@@ -2323,6 +2449,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-127",
                 "name": "Nécrophage",
                 "rarity": "rare",
                 "type": "creature",
@@ -2342,6 +2469,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-128",
                 "name": "Lame-croc yuan-ti",
                 "rarity": "common",
                 "type": "creature",
@@ -2361,6 +2489,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-129",
                 "name": "Ogre zombie",
                 "rarity": "common",
                 "type": "creature",
@@ -2380,6 +2509,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-130",
                 "name": "Vétérane d'armurerie",
                 "rarity": "common",
                 "type": "creature",
@@ -2399,6 +2529,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-131",
                 "name": "Classe : barbare",
                 "rarity": "uncommon",
                 "type": "enchantment",
@@ -2418,6 +2549,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-132",
                 "name": "Gobelin au cri de guerre",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -2437,6 +2569,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-133",
                 "name": "Bottes de rapidité",
                 "rarity": "common",
                 "type": "artifact",
@@ -2456,6 +2589,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-134",
                 "name": "Nain d'airain",
                 "rarity": "common",
                 "type": "creature",
@@ -2475,6 +2609,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-135",
                 "name": "Mains brûlantes",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -2494,6 +2629,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-136",
                 "name": "Canaliseur de chaos",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -2513,6 +2649,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-137",
                 "name": "Coup critique",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -2532,6 +2669,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-138",
                 "name": "Délina, mage sauvage",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -2551,6 +2689,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-139",
                 "name": "Feu du dragon",
                 "rarity": "common",
                 "type": "instant",
@@ -2570,6 +2709,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-140",
                 "name": "Rapière de duel",
                 "rarity": "common",
                 "type": "artifact",
@@ -2589,6 +2729,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-141",
                 "name": "Élémental du culte de la Terre",
                 "rarity": "common",
                 "type": "creature",
@@ -2608,6 +2749,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-142",
                 "name": "Boule de feu de Farideh",
                 "rarity": "common",
                 "type": "instant",
@@ -2627,6 +2769,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-143",
                 "name": "Crânefeu",
                 "rarity": "mythic",
                 "type": "creature",
@@ -2646,6 +2789,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-144",
                 "name": "Javelinière gobeline",
                 "rarity": "common",
                 "type": "creature",
@@ -2665,6 +2809,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-145",
                 "name": "Morgenstern de gobelin",
                 "rarity": "uncommon",
                 "type": "artifact",
@@ -2684,6 +2829,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-146",
                 "name": "Ogresse entasseuse",
                 "rarity": "common",
                 "type": "creature",
@@ -2703,6 +2849,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-147",
                 "name": "Seigneur bandit hobgobelin",
                 "rarity": "rare",
                 "type": "creature",
@@ -2722,6 +2869,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-148",
                 "name": "Capitaine hobgobeline",
                 "rarity": "common",
                 "type": "creature",
@@ -2741,6 +2889,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-149",
                 "name": "Gobelours lourdaud",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -2760,6 +2909,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-150",
                 "name": "Arsenal improvisé",
                 "rarity": "common",
                 "type": "sorcery",
@@ -2779,6 +2929,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-151",
                 "name": "Fournaise des Monts Étoilés",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -2798,6 +2949,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-152",
                 "name": "Épée à louer désabusée",
                 "rarity": "common",
                 "type": "creature",
@@ -2817,6 +2969,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-153",
                 "name": "Enfoncer la porte",
                 "rarity": "common",
                 "type": "sorcery",
@@ -2836,6 +2989,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-154",
                 "name": "Projectile magique",
                 "rarity": "uncommon",
                 "type": "sorcery",
@@ -2855,6 +3009,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-155",
                 "name": "Nuée de météores",
                 "rarity": "rare",
                 "type": "sorcery",
@@ -2874,6 +3029,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-156",
                 "name": "Mignon des puissants",
                 "rarity": "rare",
                 "type": "creature",
@@ -2893,6 +3049,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-157",
                 "name": "Orbe des dragons",
                 "rarity": "rare",
                 "type": "artifact",
@@ -2912,6 +3069,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-158",
                 "name": "Barbare saccageur",
                 "rarity": "common",
                 "type": "creature",
@@ -2931,6 +3089,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-159",
                 "name": "Prix de la loyauté",
                 "rarity": "common",
                 "type": "sorcery",
@@ -2950,6 +3109,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-160",
                 "name": "Roublard pied-léger",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -2969,6 +3129,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-161",
                 "name": "Oxydeur",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -2988,6 +3149,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-162",
                 "name": "Nuée de gobelins",
                 "rarity": "common",
                 "type": "creature",
@@ -3007,6 +3169,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-163",
                 "name": "Chasseresse de la tribu du Tigre",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3026,6 +3189,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-164",
                 "name": "Aubaine inattendue",
                 "rarity": "common",
                 "type": "instant",
@@ -3045,6 +3209,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-165",
                 "name": "Chanteur de vaillance",
                 "rarity": "common",
                 "type": "creature",
@@ -3064,6 +3229,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-166",
                 "name": "Souhait",
                 "rarity": "rare",
                 "type": "sorcery",
@@ -3083,6 +3249,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-167",
                 "name": "Xorn",
                 "rarity": "rare",
                 "type": "creature",
@@ -3102,6 +3269,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-168",
                 "name": "Vous arrivez au camp des gnolls",
                 "rarity": "common",
                 "type": "instant",
@@ -3121,6 +3289,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-169",
                 "name": "Vous trouvez des prisonniers",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -3140,6 +3309,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-170",
                 "name": "Vous voyez deux gobelins",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -3159,6 +3329,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-171",
                 "name": "Zalto, duc des géants du feu",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -3178,6 +3349,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-172",
                 "name": "Zariel, archiduchesse d'Averne",
                 "rarity": "mythic",
                 "type": "legendary planeswalker",
@@ -3197,6 +3369,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-173",
                 "name": "Bulette",
                 "rarity": "common",
                 "type": "creature",
@@ -3216,6 +3389,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-174",
                 "name": "Force du taureau",
                 "rarity": "common",
                 "type": "instant",
@@ -3235,6 +3409,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-175",
                 "name": "Choisissez votre arme",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -3254,6 +3429,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-176",
                 "name": "Druide du cercle des rêves",
                 "rarity": "rare",
                 "type": "creature",
@@ -3273,6 +3449,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-177",
                 "name": "Druide du cercle de la lune",
                 "rarity": "common",
                 "type": "creature",
@@ -3292,6 +3469,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-178",
                 "name": "Duel forcé",
                 "rarity": "common",
                 "type": "sorcery",
@@ -3311,6 +3489,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-179",
                 "name": "Rôdeur loup sanguinaire",
                 "rarity": "common",
                 "type": "creature",
@@ -3330,6 +3509,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-180",
                 "name": "Classe : druide",
                 "rarity": "uncommon",
                 "type": "enchantment",
@@ -3349,6 +3529,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-181",
                 "name": "Ellywick Grattechambard",
                 "rarity": "mythic",
                 "type": "legendary planeswalker",
@@ -3368,6 +3549,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-182",
                 "name": "Rôdeuse de l'Elturgard",
                 "rarity": "common",
                 "type": "creature",
@@ -3387,6 +3569,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-183",
                 "name": "Trouver un chemin",
                 "rarity": "common",
                 "type": "enchantment",
@@ -3406,6 +3589,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-184",
                 "name": "Craphémoth",
                 "rarity": "rare",
                 "type": "creature",
@@ -3425,6 +3609,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-185",
                 "name": "Chasseur gnoll",
                 "rarity": "common",
                 "type": "creature",
@@ -3444,6 +3629,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-186",
                 "name": "Dragon vert",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3463,6 +3649,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-187",
                 "name": "Avaleur de bétail géant des collines",
                 "rarity": "common",
                 "type": "creature",
@@ -3482,6 +3669,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-188",
                 "name": "Marque du chasseur",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -3501,6 +3689,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-189",
                 "name": "Barde inspirateur",
                 "rarity": "common",
                 "type": "creature",
@@ -3520,6 +3709,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-190",
                 "name": "Instrument des bardes",
                 "rarity": "rare",
                 "type": "legendary artifact",
@@ -3539,6 +3729,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-191",
                 "name": "Pérégrine intrépide",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3558,6 +3749,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-192",
                 "name": "Troll répugnant",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3577,6 +3769,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-193",
                 "name": "Repos long",
                 "rarity": "rare",
                 "type": "sorcery",
@@ -3596,6 +3789,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-194",
                 "name": "Enlaceur sournois",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3615,6 +3809,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-195",
                 "name": "Dryade de Padhiver",
                 "rarity": "common",
                 "type": "creature",
@@ -3634,6 +3829,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-196",
                 "name": "Gelée ocre",
                 "rarity": "rare",
                 "type": "creature",
@@ -3653,6 +3849,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-197",
                 "name": "La Vieille Ronge-os",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -3672,6 +3869,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-198",
                 "name": "Ours-hibou",
                 "rarity": "common",
                 "type": "creature",
@@ -3691,6 +3889,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-199",
                 "name": "Tomber à pic",
                 "rarity": "common",
                 "type": "instant",
@@ -3710,6 +3909,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-200",
                 "name": "Aubergiste prospère",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3729,6 +3929,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-201",
                 "name": "Ver pourpre",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3748,6 +3949,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-202",
                 "name": "Classe : rôdeur",
                 "rarity": "rare",
                 "type": "enchantment",
@@ -3767,6 +3969,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-203",
                 "name": "Arc long du rôdeur",
                 "rarity": "common",
                 "type": "artifact",
@@ -3786,6 +3989,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-204",
                 "name": "Herboriste écailleuse",
                 "rarity": "common",
                 "type": "creature",
@@ -3805,6 +4009,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-205",
                 "name": "Butin de la chasse",
                 "rarity": "common",
                 "type": "instant",
@@ -3824,6 +4029,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-206",
                 "name": "Bergère sylvestre",
                 "rarity": "common",
                 "type": "creature",
@@ -3843,6 +4049,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-207",
                 "name": "La tarasque",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -3862,6 +4069,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-208",
                 "name": "Basilic d'Outreterre",
                 "rarity": "common",
                 "type": "creature",
@@ -3881,6 +4089,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-209",
                 "name": "Varis, rôdeur de Lunargent",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -3900,6 +4109,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-210",
                 "name": "Troubadouresse errante",
                 "rarity": "uncommon",
                 "type": "creature",
@@ -3919,6 +4129,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-211",
                 "name": "Chef de meute de loups-garous",
                 "rarity": "rare",
                 "type": "creature",
@@ -3938,6 +4149,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-212",
                 "name": "Forme sauvage",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -3957,6 +4169,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-213",
                 "name": "Vous trouvez une idôle maudite",
                 "rarity": "common",
                 "type": "sorcery",
@@ -3976,6 +4189,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-214",
                 "name": "Vous débouchez sur une clairière",
                 "rarity": "uncommon",
                 "type": "instant",
@@ -3995,6 +4209,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-215",
                 "name": "Vous vous retrouvez à la taverne",
                 "rarity": "uncommon",
                 "type": "sorcery",
@@ -4014,6 +4229,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-216",
                 "name": "Dragon d'or adulte",
                 "rarity": "rare",
                 "type": "creature",
@@ -4033,6 +4249,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-217",
                 "name": "Classe : barde",
                 "rarity": "rare",
                 "type": "enchantment",
@@ -4052,6 +4269,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-218",
                 "name": "Barrowin du clan Undurr",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4071,6 +4289,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-219",
                 "name": "Bruenor Marteaudeguerre",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4090,6 +4309,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-220",
                 "name": "Drizzt Do'Urden",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -4109,6 +4329,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-221",
                 "name": "Farideh, élue du Diable",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4128,6 +4349,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-222",
                 "name": "Classe : guerrier",
                 "rarity": "rare",
                 "type": "enchantment",
@@ -4147,6 +4369,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-223",
                 "name": "Gretchen Saulemouflet",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4166,6 +4389,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-224",
                 "name": "Hama Pashar, chercheuse de ruines",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4185,6 +4409,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-225",
                 "name": "Kalain, peintre solitaire",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4204,6 +4429,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-226",
                 "name": "Krydle de la Porte de Baldur",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4223,6 +4449,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-227",
                 "name": "Minsc, rôdeur apprécié",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -4242,6 +4469,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-228",
                 "name": "Classe : moine",
                 "rarity": "rare",
                 "type": "enchantment",
@@ -4261,6 +4489,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-229",
                 "name": "Orcus, prince de la Non-Vie",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -4280,6 +4509,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-230",
                 "name": "Classe : roublard",
                 "rarity": "rare",
                 "type": "enchantment",
@@ -4299,6 +4529,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-231",
                 "name": "Shessra, murmure de la mort",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4318,6 +4549,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-232",
                 "name": "Nuée squelettique",
                 "rarity": "rare",
                 "type": "enchantment",
@@ -4337,6 +4569,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-233",
                 "name": "Classe : ensorceleur",
                 "rarity": "rare",
                 "type": "enchantment",
@@ -4356,6 +4589,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-234",
                 "name": "Tar Nar, gnoll croc-démon",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4375,6 +4609,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-235",
                 "name": "Tiamat",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -4394,6 +4629,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-236",
                 "name": "Trelasarra, danseuse de la lune",
                 "rarity": "uncommon",
                 "type": "legendary creature",
@@ -4413,6 +4649,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-237",
                 "name": "Aventurier triomphant",
                 "rarity": "rare",
                 "type": "creature",
@@ -4432,6 +4669,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-238",
                 "name": "Volo, guide des monstres",
                 "rarity": "rare",
                 "type": "legendary creature",
@@ -4451,6 +4689,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-239",
                 "name": "Xanathar, baron de la guilde",
                 "rarity": "mythic",
                 "type": "legendary creature",
@@ -4470,6 +4709,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-240",
                 "name": "Sac sans fond",
                 "rarity": "uncommon",
                 "type": "artifact",
@@ -4489,6 +4729,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-241",
                 "name": "Les cartes merveilleuses",
                 "rarity": "mythic",
                 "type": "legendary artifact",
@@ -4508,6 +4749,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-242",
                 "name": "Carte du donjon",
                 "rarity": "uncommon",
                 "type": "artifact",
@@ -4527,6 +4769,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-243",
                 "name": "Oeil de Vecna",
                 "rarity": "rare",
                 "type": "legendary artifact",
@@ -4546,6 +4789,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-244",
                 "name": "Quinze mètres de corde",
                 "rarity": "uncommon",
                 "type": "artifact",
@@ -4565,6 +4809,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-245",
                 "name": "Hache à deux mains",
                 "rarity": "common",
                 "type": "artifact",
@@ -4584,6 +4829,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-246",
                 "name": "Main de Vecna",
                 "rarity": "rare",
                 "type": "legendary artifact",
@@ -4603,6 +4849,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-247",
                 "name": "Golem de fer",
                 "rarity": "uncommon",
                 "type": "artifact creature",
@@ -4622,6 +4869,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-248",
                 "name": "Armure de cuir",
                 "rarity": "common",
                 "type": "artifact",
@@ -4641,6 +4889,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-249",
                 "name": "Mimique",
                 "rarity": "common",
                 "type": "artifact",
@@ -4660,6 +4909,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-250",
                 "name": "Dague de rechange",
                 "rarity": "common",
                 "type": "artifact",
@@ -4679,6 +4929,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-251",
                 "name": "Fosse hérissée de pieux",
                 "rarity": "common",
                 "type": "artifact",
@@ -4698,6 +4949,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-252",
                 "name": "Coffre au trésor",
                 "rarity": "rare",
                 "type": "artifact",
@@ -4717,6 +4969,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-253",
                 "name": "Grotte du dragon de givre",
                 "rarity": "rare",
                 "type": "land",
@@ -4736,6 +4989,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-254",
                 "name": "Tanière du gobelours",
                 "rarity": "rare",
                 "type": "land",
@@ -4755,6 +5009,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-255",
                 "name": "Descente dans le donjon",
                 "rarity": "rare",
                 "type": "land",
@@ -4774,6 +5029,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-256",
                 "name": "Étendues sauvages en évolution",
                 "rarity": "common",
                 "type": "land",
@@ -4793,6 +5049,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-257",
                 "name": "Halle des géants des tempêtes",
                 "rarity": "rare",
                 "type": "land",
@@ -4812,6 +5069,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-258",
                 "name": "Essaim du despote tyrannoeil",
                 "rarity": "rare",
                 "type": "land",
@@ -4831,6 +5089,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-259",
                 "name": "Repaire de l'hydre",
                 "rarity": "rare",
                 "type": "land",
@@ -4850,6 +5109,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-260",
                 "name": "Temple de la Reine des Dragons",
                 "rarity": "uncommon",
                 "type": "land",
@@ -4869,6 +5129,7 @@
         {
             "total": 4,
             "card": {
+                "id": "AFR-261",
                 "name": "Salle au trésor",
                 "rarity": "rare",
                 "type": "artifact land",

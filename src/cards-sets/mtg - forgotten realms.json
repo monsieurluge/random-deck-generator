@@ -1,9 +1,10 @@
 {
-    "name": "Magic The Gathering - Forgotten Realms",
     "type": "mtg",
+    "expansion": "Adventures in the Forgotten Realms",
+    "expansion-short": "AFR",
     "cards": [
         {
-            "id": 1,
+            "number": 1,
             "name": "Masse d'armes +2",
             "cost": {
                 "generic": 3,
@@ -19,7 +20,7 @@
             "rarity": "common"
         },
         {
-            "id": 2,
+            "number": 2,
             "name": "Pégase d'Arborée",
             "cost": {
                 "generic": 3,
@@ -35,7 +36,7 @@
             "rarity": "common"
         },
         {
-            "id": 3,
+            "number": 3,
             "name": "Chien esquiveur",
             "cost": {
                 "generic": 2,
@@ -51,7 +52,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 4,
+            "number": 4,
             "name": "Le livre d'exaltation suprême",
             "cost": {
                 "white": 3
@@ -64,7 +65,7 @@
             "rarity": "mythic"
         },
         {
-            "id": 5,
+            "number": 5,
             "name": "Licorne céleste",
             "cost": {
                 "generic": 2,
@@ -80,7 +81,7 @@
             "rarity": "common"
         },
         {
-            "id": 6,
+            "number": 6,
             "name": "Classe: clerc",
             "cost": {
                 "white": 1
@@ -95,7 +96,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 7,
+            "number": 7,
             "name": "Gargouille du cloître",
             "cost": {
                 "generic": 2,
@@ -111,7 +112,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 8,
+            "number": 8,
             "name": "Epée dansante",
             "cost": {
                 "generic": 1,
@@ -127,7 +128,7 @@
             "rarity": "rare"
         },
         {
-            "id": 9,
+            "number": 9,
             "name": "Clerc porteur de l'aube",
             "cost": {
                 "generic": 1,
@@ -144,7 +145,7 @@
             "rarity": "common"
         },
         {
-            "id": 10,
+            "number": 10,
             "name": "Torche du fouilleur",
             "cost": {
                 "generic": 1,
@@ -160,7 +161,7 @@
             "rarity": "common"
         },
         {
-            "id": 11,
+            "number": 11,
             "name": "Paladine dévouée",
             "cost": {
                 "generic": 4,
@@ -177,7 +178,7 @@
             "rarity": "common"
         },
         {
-            "id": 12,
+            "number": 12,
             "name": "Frappe divine",
             "cost": {
                 "generic": 1,
@@ -191,7 +192,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 13,
+            "number": 13,
             "name": "Disciple du dragon",
             "cost": {
                 "generic": 1,
@@ -208,7 +209,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 14,
+            "number": 14,
             "name": "Championne de la forteresse naine",
             "cost": {
                 "generic": 1,
@@ -225,7 +226,7 @@
             "rarity": "common"
         },
         {
-            "id": 15,
+            "number": 15,
             "name": "Flumph",
             "cost": {
                 "generic": 1,
@@ -241,7 +242,7 @@
             "rarity": "rare"
         },
         {
-            "id": 16,
+            "number": 16,
             "name": "Pisteur des ténèbres",
             "cost": {
                 "generic": 2,
@@ -258,7 +259,7 @@
             "rarity": "common"
         },
         {
-            "id": 17,
+            "number": 17,
             "name": "Grand maître des fleurs",
             "cost": {
                 "generic": 2,
@@ -274,7 +275,7 @@
             "rarity": "mythic"
         },
         {
-            "id": 18,
+            "number": 18,
             "name": "Gardien de la foi",
             "cost": {
                 "generic": 1,
@@ -291,7 +292,7 @@
             "rarity": "rare"
         },
         {
-            "id": 19,
+            "number": 19,
             "name": "Moine demi-elfe",
             "cost": {
                 "generic": 3,
@@ -308,7 +309,7 @@
             "rarity": "common"
         },
         {
-            "id": 20,
+            "number": 20,
             "name": "Glacemort, tyran des glaces",
             "cost": {
                 "generic": 2,
@@ -324,7 +325,7 @@
             "rarity": "mythic"
         },
         {
-            "id": 21,
+            "number": 21,
             "name": "Forgeronne ingénieuse",
             "cost": {
                 "generic": 1,
@@ -341,7 +342,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 22,
+            "number": 22,
             "name": "Sentinelle à l'ouïe fine",
             "cost": {
                 "generic": 1,
@@ -358,7 +359,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 23,
+            "number": 23,
             "name": "Chien de guerre loyal",
             "cost": {
                 "generic": 1,
@@ -374,7 +375,7 @@
             "rarity": "rare"
         },
         {
-            "id": 24,
+            "number": 24,
             "name": "Confinement minimal",
             "cost": {
                 "generic": 2,
@@ -390,7 +391,7 @@
             "rarity": "common"
         },
         {
-            "id": 25,
+            "number": 25,
             "name": "Moine de la main ouverte",
             "cost": {
                 "white": 1
@@ -406,7 +407,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 26,
+            "number": 26,
             "name": "Clerc bénie par la lune",
             "cost": {
                 "generic": 2,
@@ -424,7 +425,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 27,
+            "number": 27,
             "name": "Nadaar, paladin dévoué",
             "cost": {
                 "generic": 2,
@@ -441,7 +442,7 @@
             "rarity": "rare"
         },
         {
-            "id": 28,
+            "number": 28,
             "name": "Oswald Tordviolon",
             "cost": {
                 "generic": 1,
@@ -458,7 +459,7 @@
             "rarity": "rare"
         },
         {
-            "id": 29,
+            "number": 29,
             "name": "Classe: paladin",
             "cost": {
                 "white": 1
@@ -473,7 +474,7 @@
             "rarity": "rare"
         },
         {
-            "id": 30,
+            "number": 30,
             "name": "Bouclier de paladin",
             "cost": {
                 "generic": 1,
@@ -489,7 +490,7 @@
             "rarity": "common"
         },
         {
-            "id": 31,
+            "number": 31,
             "name": "Alliée planaire",
             "cost": {
                 "generic": 3,
@@ -505,7 +506,7 @@
             "rarity": "common"
         },
         {
-            "id": 32,
+            "number": 32,
             "name": "Armure de plates",
             "cost": {
                 "generic": 2,
@@ -521,7 +522,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 33,
+            "number": 33,
             "name": "Puits portable",
             "cost": {
                 "white": 1
@@ -534,7 +535,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 34,
+            "number": 34,
             "name": "Potion de guérison",
             "cost": {
                 "generic": 1,
@@ -548,7 +549,7 @@
             "rarity": "common"
         },
         {
-            "id": 35,
+            "number": 35,
             "name": "Prêtre de la sapience ancestrale",
             "cost": {
                 "generic": 2,
@@ -565,7 +566,7 @@
             "rarity": "common"
         },
         {
-            "id": 36,
+            "number": 36,
             "name": "Manoeuvre de ralliement",
             "cost": {
                 "generic": 2,
@@ -579,7 +580,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 37,
+            "number": 37,
             "name": "Faucon du rôdeur",
             "cost": {
                 "white": 1
@@ -594,7 +595,7 @@
             "rarity": "common"
         },
         {
-            "id": 38,
+            "number": 38,
             "name": "Paladine inébranlable",
             "cost": {
                 "generic": 1,
@@ -611,7 +612,7 @@
             "rarity": "common"
         },
         {
-            "id": 39,
+            "number": 39,
             "name": "Cercle de téléportation",
             "cost": {
                 "white": 1,
@@ -625,7 +626,7 @@
             "rarity": "rare"
         },
         {
-            "id": 40,
+            "number": 40,
             "name": "Exploratrice de donjon vétérane",
             "cost": {
                 "white": 1,
@@ -642,7 +643,7 @@
             "rarity": "common"
         },
         {
-            "id": 41,
+            "number": 41,
             "name": "Dragon blanc",
             "cost": {
                 "white": 2,
@@ -658,7 +659,7 @@
             "rarity": "uncommon"
         },
         {
-            "id": 42,
+            "number": 42,
             "name": "Vous entendez quelque chose",
             "cost": {
                 "white": 1,
@@ -672,7 +673,7 @@
             "rarity": "common"
         },
         {
-            "id": 43,
+            "number": 43,
             "name": "Vous tombez dans une embuscade",
             "rarity": "common",
             "type": "instant",
@@ -685,7 +686,7 @@
             ]
         },
         {
-            "id": 44,
+            "number": 44,
             "name": "Ensorceleuse à l'esprit aberrant",
             "rarity": "uncommon",
             "type": "creature",
@@ -703,7 +704,7 @@
             ]
         },
         {
-            "id": 45,
+            "number": 45,
             "name": "Elémental du culte de l'air",
             "rarity": "common",
             "type": "creature",
@@ -715,7 +716,7 @@
             }
         },
         {
-            "id": 46,
+            "number": 46,
             "name": "Enquêteur arcanique",
             "rarity": "common",
             "type": "creature",
@@ -727,7 +728,7 @@
             }
         },
         {
-            "id": 47,
+            "number": 47,
             "name": "Bloquez le portali !",
             "rarity": "common",
             "type": "instant",
@@ -739,7 +740,7 @@
             }
         },
         {
-            "id": 48,
+            "number": 48,
             "name": "Le bâton Noir d'Eauprofonde",
             "rarity": "rare",
             "type": "legendary artifact",
@@ -750,7 +751,7 @@
             }
         },
         {
-            "id": 49,
+            "number": 49,
             "name": "Dragon bleu",
             "rarity": "uncommon",
             "type": "creature",
@@ -762,7 +763,7 @@
             }
         },
         {
-            "id": 50,
+            "number": 50,
             "name": "Sommeil enchanté",
             "rarity": "common",
             "type": "enchantment",
@@ -779,7 +780,7 @@
             }
         },
         {
-            "id": 51,
+            "number": 51,
             "name": "Invocateur malin",
             "rarity": "common",
             "type": "creature",
@@ -796,7 +797,7 @@
             }
         },
         {
-            "id": 52,
+            "number": 52,
             "name": "Contact avec un autre plan",
             "rarity": "common",
             "type": "instant",
@@ -813,7 +814,7 @@
             }
         },
         {
-            "id": 53,
+            "number": 53,
             "name": "Demi-liche",
             "rarity": "mythic",
             "type": "creature",
@@ -830,7 +831,7 @@
             }
         },
         {
-            "id": 54,
+            "number": 54,
             "name": "Bête éclipsante",
             "rarity": "uncommon",
             "type": "creature",
@@ -847,7 +848,7 @@
             }
         },
         {
-            "id": 55,
+            "number": 55,
             "name": "Djinn prophètevent",
             "rarity": "common",
             "type": "creature",
@@ -864,7 +865,7 @@
             }
         },
         {
-            "id": 56,
+            "number": 56,
             "name": "Dragon-tortue",
             "rarity": "rare",
             "type": "creature",
@@ -881,7 +882,7 @@
             }
         },
         {
-            "id": 57,
+            "number": 57,
             "name": "Apprentie excentrique",
             "rarity": "uncommon",
             "type": "creature",
@@ -898,7 +899,7 @@
             }
         },
         {
-            "id": 58,
+            "number": 58,
             "name": "Escroc de la Féerie sauvage",
             "rarity": "uncommon",
             "type": "creature",
@@ -915,7 +916,7 @@
             }
         },
         {
-            "id": 59,
+            "number": 59,
             "name": "Envol",
             "rarity": "uncommon",
             "type": "enchantment",
@@ -932,8 +933,7 @@
             }
         },
         {
-            "id": 60,
-            "name": "Grazilaxx, érudit illithid",
+            "number": 60,
             "rarity": "rare",
             "type": "legendary creature",
             "subtypes": ["horror"],
@@ -949,7 +949,7 @@
             }
         },
         {
-            "id": 61,
+            "number": 61,
             "name": "Voleuse de guilde",
             "rarity": "uncommon",
             "type": "creature",
@@ -966,7 +966,7 @@
             }
         },
         {
-            "id": 62,
+            "number": 62,
             "name": "Iymrith, Fléau du désert",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -983,7 +983,7 @@
             }
         },
         {
-            "id": 63,
+            "number": 63,
             "name": "Flagelleur mental",
             "rarity": "rare",
             "type": "creature",
@@ -1000,7 +1000,7 @@
             }
         },
         {
-            "id": 64,
+            "number": 64,
             "name": "Mordenkainen",
             "rarity": "mythic",
             "type": "legendary planeswalker",
@@ -1017,7 +1017,7 @@
             }
         },
         {
-            "id": 65,
+            "number": 65,
             "name": "Polymorphe de Mordenkainen",
             "rarity": "common",
             "type": "instant",
@@ -1034,8 +1034,7 @@
             }
         },
         {
-            "id": 66,
-            "name": "Guide pixie",
+            "number": 66,
             "rarity": "common",
             "type": "creature",
             "subtypes": ["fairy"],
@@ -1051,7 +1050,7 @@
             }
         },
         {
-            "id": 67,
+            "number": 67,
             "name": "Pouvoir de persuasion",
             "rarity": "uncommon",
             "type": "sorcery",
@@ -1068,7 +1067,7 @@
             }
         },
         {
-            "id": 68,
+            "number": 68,
             "name": "Rayon de givre",
             "rarity": "uncommon",
             "type": "enchantment",
@@ -1085,7 +1084,7 @@
             }
         },
         {
-            "id": 69,
+            "number": 69,
             "name": "Géante du givre protégel",
             "rarity": "common",
             "type": "creature",
@@ -1102,7 +1101,7 @@
             }
         },
         {
-            "id": 70,
+            "number": 70,
             "name": "Rejeton de la Stygie",
             "rarity": "common",
             "type": "creature",
@@ -1119,7 +1118,7 @@
             }
         },
         {
-            "id": 71,
+            "number": 71,
             "name": "Passage secret",
             "rarity": "common",
             "type": "artifact creature",
@@ -1136,7 +1135,7 @@
             }
         },
         {
-            "id": 72,
+            "number": 72,
             "name": "Poigne électrique",
             "rarity": "common",
             "type": "instant",
@@ -1153,7 +1152,7 @@
             }
         },
         {
-            "id": 73,
+            "number": 73,
             "name": "Chercheur de raccourcis",
             "rarity": "common",
             "type": "creature",
@@ -1170,7 +1169,7 @@
             }
         },
         {
-            "id": 74,
+            "number": 74,
             "name": "Corbeau d'argent",
             "rarity": "common",
             "type": "artifact creature",
@@ -1187,7 +1186,7 @@
             }
         },
         {
-            "id": 75,
+            "number": 75,
             "name": "Espionne coutelâme",
             "rarity": "common",
             "type": "creature",
@@ -1204,7 +1203,7 @@
             }
         },
         {
-            "id": 76,
+            "number": 76,
             "name": "Séparation du groupe",
             "rarity": "uncommon",
             "type": "sorcery",
@@ -1221,7 +1220,7 @@
             }
         },
         {
-            "id": 77,
+            "number": 77,
             "name": "Révélation soudaine",
             "rarity": "uncommon",
             "type": "instant",
@@ -1238,7 +1237,7 @@
             }
         },
         {
-            "id": 78,
+            "number": 78,
             "name": "Fou rire de Tasha",
             "rarity": "rare",
             "type": "sorcery",
@@ -1255,7 +1254,7 @@
             }
         },
         {
-            "id": 79,
+            "number": 79,
             "name": "Talisman du farceur",
             "rarity": "uncommon",
             "type": "artifact",
@@ -1272,7 +1271,7 @@
             }
         },
         {
-            "id": 80,
+            "number": 80,
             "name": "Métamorphose suprême",
             "rarity": "rare",
             "type": "instant",
@@ -1289,7 +1288,7 @@
             }
         },
         {
-            "id": 81,
+            "number": 81,
             "name": "Classe : magicien",
             "rarity": "uncommon",
             "type": "enchantment",
@@ -1306,7 +1305,7 @@
             }
         },
         {
-            "id": 82,
+            "number": 82,
             "name": "Grimoire de magicien",
             "rarity": "rare",
             "type": "artifact",
@@ -1323,7 +1322,7 @@
             }
         },
         {
-            "id": 83,
+            "number": 83,
             "name": "Vous arrivez à une rivière",
             "rarity": "common",
             "type": "instant",
@@ -1340,7 +1339,7 @@
             }
         },
         {
-            "id": 84,
+            "number": 84,
             "name": "Vous trouvez le repaire des ennemis",
             "rarity": "common",
             "type": "instant",
@@ -1357,7 +1356,7 @@
             }
         },
         {
-            "id": 85,
+            "number": 85,
             "name": "Vous voyez un garde approcher",
             "rarity": "common",
             "type": "instant",
@@ -1374,7 +1373,7 @@
             }
         },
         {
-            "id": 86,
+            "number": 86,
             "name": "Malison yuan-ti",
             "rarity": "rare",
             "type": "creature",
@@ -1391,7 +1390,7 @@
             }
         },
         {
-            "id": 87,
+            "number": 87,
             "name": "Acérérak l'archiliche",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -1408,7 +1407,7 @@
             }
         },
         {
-            "id": 88,
+            "number": 88,
             "name": "Asmodée l'archifiélon",
             "rarity": "rare",
             "type": "legendary creature",
@@ -1425,7 +1424,7 @@
             }
         },
         {
-            "id": 89,
+            "number": 89,
             "name": "Tyrannoeil sinistre",
             "rarity": "common",
             "type": "creature",
@@ -1442,7 +1441,7 @@
             }
         },
         {
-            "id": 90,
+            "number": 90,
             "name": "Dragon noir",
             "rarity": "uncommon",
             "type": "creature",
@@ -1459,7 +1458,7 @@
             }
         },
         {
-            "id": 91,
+            "number": 91,
             "name": "Le livre de noire vilénie",
             "rarity": "mythic",
             "type": "legendary artifact",
@@ -1476,7 +1475,7 @@
             }
         },
         {
-            "id": 92,
+            "number": 92,
             "name": "Déceler les pièges",
             "rarity": "uncommon",
             "type": "sorcery",
@@ -1493,7 +1492,7 @@
             }
         },
         {
-            "id": 93,
+            "number": 93,
             "name": "Squelettes cliquetants",
             "rarity": "common",
             "type": "creature",
@@ -1510,7 +1509,7 @@
             }
         },
         {
-            "id": 94,
+            "number": 94,
             "name": "Dispute mortelle",
             "rarity": "common",
             "type": "instant",
@@ -1527,7 +1526,7 @@
             }
         },
         {
-            "id": 95,
+            "number": 95,
             "name": "Nécroprêtresse de Myrkul",
             "rarity": "uncommon",
             "type": "creature",
@@ -1544,7 +1543,7 @@
             }
         },
         {
-            "id": 96,
+            "number": 96,
             "name": "Emprise du Démogorgon",
             "rarity": "uncommon",
             "type": "sorcery",
@@ -1561,7 +1560,7 @@
             }
         },
         {
-            "id": 97,
+            "number": 97,
             "name": "Dévorer l'intelligence",
             "rarity": "common",
             "type": "sorcery",
@@ -1578,11 +1577,9 @@
             }
         },
         {
-            "id": 98,
-            "name": "Drider",
+            "number": 98,
             "rarity": "uncommon",
             "type": "creature",
-            "subtypes": ["elf", "spider"],
             "colors": ["black"],
             "cost": {
                 "black": 1,
@@ -1595,7 +1592,7 @@
             }
         },
         {
-            "id": 99,
+            "number": 99,
             "name": "Trimardeur du donjon",
             "rarity": "uncommon",
             "type": "creature",
@@ -1612,7 +1609,7 @@
             }
         },
         {
-            "id": 100,
+            "number": 100,
             "name": "Noiremort, dracoliche",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -1629,7 +1626,7 @@
             }
         },
         {
-            "id": 101,
+            "number": 101,
             "name": "Regard du tyrannoeil",
             "rarity": "common",
             "type": "instant",
@@ -1646,7 +1643,7 @@
             }
         },
         {
-            "id": 102,
+            "number": 102,
             "name": "Intervention des Parques",
             "rarity": "common",
             "type": "sorcery",
@@ -1663,7 +1660,7 @@
             }
         },
         {
-            "id": 103,
+            "number": 103,
             "name": "État cadavérique",
             "rarity": "common",
             "type": "instant",
@@ -1680,7 +1677,7 @@
             }
         },
         {
-            "id": 104,
+            "number": 104,
             "name": "Paladine parjure",
             "rarity": "rare",
             "type": "creature",
@@ -1697,7 +1694,7 @@
             }
         },
         {
-            "id": 105,
+            "number": 105,
             "name": "Cube gélatineux",
             "rarity": "rare",
             "type": "creature",
@@ -1714,7 +1711,7 @@
             }
         },
         {
-            "id": 106,
+            "number": 106,
             "name": "Don sinistre",
             "rarity": "common",
             "type": "sorcery",
@@ -1731,7 +1728,7 @@
             }
         },
         {
-            "id": 107,
+            "number": 107,
             "name": "Vagabond sinistre",
             "rarity": "uncommon",
             "type": "creature",
@@ -1748,7 +1745,7 @@
             }
         },
         {
-            "id": 108,
+            "number": 108,
             "name": "Hérault de Hadar",
             "rarity": "common",
             "type": "creature",
@@ -1765,7 +1762,7 @@
             }
         },
         {
-            "id": 109,
+            "number": 109,
             "name": "Tourmenteur à gages",
             "rarity": "common",
             "type": "creature",
@@ -1782,7 +1779,7 @@
             }
         },
         {
-            "id": 110,
+            "number": 110,
             "name": "Voleuse de magot",
             "rarity": "common",
             "type": "creature",
@@ -1799,7 +1796,7 @@
             }
         },
         {
-            "id": 111,
+            "number": 111,
             "name": "Roublard pied-léger",
             "rarity": "uncommon",
             "type": "creature",
@@ -1816,7 +1813,7 @@
             }
         },
         {
-            "id": 112,
+            "number": 112,
             "name": "Lolth, Reine Araignée",
             "rarity": "mythic",
             "type": "legendary planeswalker",
@@ -1833,7 +1830,7 @@
             }
         },
         {
-            "id": 113,
+            "number": 113,
             "name": "Manticore",
             "rarity": "common",
             "type": "creature",
@@ -1850,7 +1847,7 @@
             }
         },
         {
-            "id": 114,
+            "number": 114,
             "name": "Mot de pouvoir mortel",
             "rarity": "uncommon",
             "type": "instant",
@@ -1867,7 +1864,7 @@
             }
         },
         {
-            "id": 115,
+            "number": 115,
             "name": "Chute abrupte",
             "rarity": "common",
             "type": "enchantment",
@@ -1884,7 +1881,7 @@
             }
         },
         {
-            "id": 116,
+            "number": 116,
             "name": "Rayon affaiblissant",
             "rarity": "uncommon",
             "type": "instant",
@@ -1901,7 +1898,7 @@
             }
         },
         {
-            "id": 117,
+            "number": 117,
             "name": "Talismant du faucheur",
             "rarity": "uncommon",
             "type": "artifact",
@@ -1918,7 +1915,7 @@
             }
         },
         {
-            "id": 118,
+            "number": 118,
             "name": "Goule du sépulcre",
             "rarity": "common",
             "type": "creature",
@@ -1935,7 +1932,7 @@
             }
         },
         {
-            "id": 119,
+            "number": 119,
             "name": "Blême titubante",
             "rarity": "common",
             "type": "creature",
@@ -1952,7 +1949,7 @@
             }
         },
         {
-            "id": 120,
+            "number": 120,
             "name": "Marchande de Port-Crâne",
             "rarity": "uncommon",
             "type": "creature",
@@ -1969,7 +1966,7 @@
             }
         },
         {
-            "id": 121,
+            "number": 121,
             "name": "Sphère d'annihilation",
             "rarity": "rare",
             "type": "artifact",
@@ -1986,7 +1983,7 @@
             }
         },
         {
-            "id": 122,
+            "number": 122,
             "name": "Outils de voleur",
             "rarity": "common",
             "type": "artifact",
@@ -2003,7 +2000,7 @@
             }
         },
         {
-            "id": 123,
+            "number": 123,
             "name": "Vampirien",
             "rarity": "common",
             "type": "creature",
@@ -2020,7 +2017,7 @@
             }
         },
         {
-            "id": 124,
+            "number": 124,
             "name": "Épée vorpale",
             "rarity": "rare",
             "type": "artifact",
@@ -2037,7 +2034,7 @@
             }
         },
         {
-            "id": 125,
+            "number": 125,
             "name": "Classe : sorcier",
             "rarity": "uncommon",
             "type": "enchantment",
@@ -2054,7 +2051,7 @@
             }
         },
         {
-            "id": 126,
+            "number": 126,
             "name": "Régent de Port-Crâne",
             "rarity": "rare",
             "type": "creature",
@@ -2071,7 +2068,7 @@
             }
         },
         {
-            "id": 127,
+            "number": 127,
             "name": "Nécrophage",
             "rarity": "rare",
             "type": "creature",
@@ -2088,7 +2085,7 @@
             }
         },
         {
-            "id": 128,
+            "number": 128,
             "name": "Lame-croc yuan-ti",
             "rarity": "common",
             "type": "creature",
@@ -2105,7 +2102,7 @@
             }
         },
         {
-            "id": 129,
+            "number": 129,
             "name": "Ogre zombie",
             "rarity": "common",
             "type": "creature",
@@ -2122,7 +2119,7 @@
             }
         },
         {
-            "id": 130,
+            "number": 130,
             "name": "Vétérane d'armurerie",
             "rarity": "common",
             "type": "creature",
@@ -2139,7 +2136,7 @@
             }
         },
         {
-            "id": 131,
+            "number": 131,
             "name": "Classe : barbare",
             "rarity": "uncommon",
             "type": "enchantment",
@@ -2156,7 +2153,7 @@
             }
         },
         {
-            "id": 132,
+            "number": 132,
             "name": "Gobelin au cri de guerre",
             "rarity": "uncommon",
             "type": "creature",
@@ -2173,8 +2170,7 @@
             }
         },
         {
-            "id": 133,
-            "name": "Bottes de rapidité",
+            "number": 133,
             "rarity": "common",
             "type": "artifact",
             "subtypes": ["equipment"],
@@ -2190,7 +2186,7 @@
             }
         },
         {
-            "id": 134,
+            "number": 134,
             "name": "Nain d'airain",
             "rarity": "common",
             "type": "creature",
@@ -2207,7 +2203,7 @@
             }
         },
         {
-            "id": 135,
+            "number": 135,
             "name": "Mains brûlantes",
             "rarity": "uncommon",
             "type": "instant",
@@ -2224,7 +2220,7 @@
             }
         },
         {
-            "id": 136,
+            "number": 136,
             "name": "Canaliseur de chaos",
             "rarity": "uncommon",
             "type": "creature",
@@ -2241,7 +2237,7 @@
             }
         },
         {
-            "id": 137,
+            "number": 137,
             "name": "Coup critique",
             "rarity": "uncommon",
             "type": "instant",
@@ -2258,7 +2254,7 @@
             }
         },
         {
-            "id": 138,
+            "number": 138,
             "name": "Délina, mage sauvage",
             "rarity": "rare",
             "type": "legendary creature",
@@ -2275,7 +2271,7 @@
             }
         },
         {
-            "id": 139,
+            "number": 139,
             "name": "Feu du dragon",
             "rarity": "common",
             "type": "instant",
@@ -2292,7 +2288,7 @@
             }
         },
         {
-            "id": 140,
+            "number": 140,
             "name": "Rapière de duel",
             "rarity": "common",
             "type": "artifact",
@@ -2309,7 +2305,7 @@
             }
         },
         {
-            "id": 141,
+            "number": 141,
             "name": "Élémental du culte de la Terre",
             "rarity": "common",
             "type": "creature",
@@ -2326,8 +2322,7 @@
             }
         },
         {
-            "id": 142,
-            "name": "Boule de feu de Farideh",
+            "number": 142,
             "rarity": "common",
             "type": "instant",
             "subtypes": [],
@@ -2343,7 +2338,7 @@
             }
         },
         {
-            "id": 143,
+            "number": 143,
             "name": "Crânefeu",
             "rarity": "mythic",
             "type": "creature",
@@ -2360,7 +2355,7 @@
             }
         },
         {
-            "id": 144,
+            "number": 144,
             "name": "Javelinière gobeline",
             "rarity": "common",
             "type": "creature",
@@ -2377,7 +2372,7 @@
             }
         },
         {
-            "id": 145,
+            "number": 145,
             "name": "Morgenstern de gobelin",
             "rarity": "uncommon",
             "type": "artifact",
@@ -2394,7 +2389,7 @@
             }
         },
         {
-            "id": 146,
+            "number": 146,
             "name": "Ogresse entasseuse",
             "rarity": "common",
             "type": "creature",
@@ -2411,7 +2406,7 @@
             }
         },
         {
-            "id": 147,
+            "number": 147,
             "name": "Seigneur bandit hobgobelin",
             "rarity": "rare",
             "type": "creature",
@@ -2428,7 +2423,7 @@
             }
         },
         {
-            "id": 148,
+            "number": 148,
             "name": "Capitaine hobgobeline",
             "rarity": "common",
             "type": "creature",
@@ -2445,7 +2440,7 @@
             }
         },
         {
-            "id": 149,
+            "number": 149,
             "name": "Gobelours lourdaud",
             "rarity": "uncommon",
             "type": "creature",
@@ -2462,7 +2457,7 @@
             }
         },
         {
-            "id": 150,
+            "number": 150,
             "name": "Arsenal improvisé",
             "rarity": "common",
             "type": "sorcery",
@@ -2479,7 +2474,7 @@
             }
         },
         {
-            "id": 151,
+            "number": 151,
             "name": "Fournaise des Monts Étoilés",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -2496,7 +2491,7 @@
             }
         },
         {
-            "id": 152,
+            "number": 152,
             "name": "Épée à louer désabusée",
             "rarity": "common",
             "type": "creature",
@@ -2513,7 +2508,7 @@
             }
         },
         {
-            "id": 153,
+            "number": 153,
             "name": "Enfoncer la porte",
             "rarity": "common",
             "type": "sorcery",
@@ -2530,7 +2525,7 @@
             }
         },
         {
-            "id": 145,
+            "number": 145,
             "name": "Projectile magique",
             "rarity": "uncommon",
             "type": "sorcery",
@@ -2547,7 +2542,7 @@
             }
         },
         {
-            "id": 155,
+            "number": 155,
             "name": "Nuée de météores",
             "rarity": "rare",
             "type": "sorcery",
@@ -2564,7 +2559,7 @@
             }
         },
         {
-            "id": 156,
+            "number": 156,
             "name": "Mignon des puissants",
             "rarity": "rare",
             "type": "creature",
@@ -2581,7 +2576,7 @@
             }
         },
         {
-            "id": 157,
+            "number": 157,
             "name": "Orbe des dragons",
             "rarity": "rare",
             "type": "artifact",
@@ -2598,7 +2593,7 @@
             }
         },
         {
-            "id": 158,
+            "number": 158,
             "name": "Barbare saccageur",
             "rarity": "common",
             "type": "creature",
@@ -2615,7 +2610,7 @@
             }
         },
         {
-            "id": 159,
+            "number": 159,
             "name": "Prix de la loyauté",
             "rarity": "common",
             "type": "sorcery",
@@ -2632,7 +2627,7 @@
             }
         },
         {
-            "id": 106,
+            "number": 106,
             "name": "Roublard pied-léger",
             "rarity": "uncommon",
             "type": "creature",
@@ -2649,7 +2644,7 @@
             }
         },
         {
-            "id": 161,
+            "number": 161,
             "name": "Oxydeur",
             "rarity": "uncommon",
             "type": "creature",
@@ -2666,7 +2661,7 @@
             }
         },
         {
-            "id": 162,
+            "number": 162,
             "name": "Nuée de gobelins",
             "rarity": "common",
             "type": "creature",
@@ -2683,7 +2678,7 @@
             }
         },
         {
-            "id": 163,
+            "number": 163,
             "name": "Chasseresse de la tribu du Tigre",
             "rarity": "uncommon",
             "type": "creature",
@@ -2700,7 +2695,7 @@
             }
         },
         {
-            "id": 164,
+            "number": 164,
             "name": "Aubaine inattendue",
             "rarity": "common",
             "type": "instant",
@@ -2717,7 +2712,7 @@
             }
         },
         {
-            "id": 165,
+            "number": 165,
             "name": "Chanteur de vaillance",
             "rarity": "common",
             "type": "creature",
@@ -2734,7 +2729,7 @@
             }
         },
         {
-            "id": 166,
+            "number": 166,
             "name": "Souhait",
             "rarity": "rare",
             "type": "sorcery",
@@ -2751,7 +2746,7 @@
             }
         },
         {
-            "id": 167,
+            "number": 167,
             "name": "Xorn",
             "rarity": "rare",
             "type": "creature",
@@ -2768,7 +2763,7 @@
             }
         },
         {
-            "id": 168,
+            "number": 168,
             "name": "Vous arrivez au camp des gnolls",
             "rarity": "common",
             "type": "instant",
@@ -2785,7 +2780,7 @@
             }
         },
         {
-            "id": 169,
+            "number": 169,
             "name": "Vous trouvez des prisonniers",
             "rarity": "uncommon",
             "type": "instant",
@@ -2802,7 +2797,7 @@
             }
         },
         {
-            "id": 170,
+            "number": 170,
             "name": "Vous voyez deux gobelins",
             "rarity": "uncommon",
             "type": "instant",
@@ -2819,7 +2814,7 @@
             }
         },
         {
-            "id": 171,
+            "number": 171,
             "name": "Zalto, duc des géants du feu",
             "rarity": "rare",
             "type": "legendary creature",
@@ -2836,8 +2831,7 @@
             }
         },
         {
-            "id": 172,
-            "name": "Zariel, archiduchesse d'Averne",
+            "number": 172,
             "rarity": "mythic",
             "type": "legendary planeswalker",
             "subtypes": ["Zariel"],
@@ -2853,7 +2847,7 @@
             }
         },
         {
-            "id": 173,
+            "number": 173,
             "name": "Bulette",
             "rarity": "common",
             "type": "creature",
@@ -2870,7 +2864,7 @@
             }
         },
         {
-            "id": 174,
+            "number": 174,
             "name": "Force du taureau",
             "rarity": "common",
             "type": "instant",
@@ -2887,7 +2881,7 @@
             }
         },
         {
-            "id": 175,
+            "number": 175,
             "name": "Choisissez votre arme",
             "rarity": "uncommon",
             "type": "instant",
@@ -2904,11 +2898,9 @@
             }
         },
         {
-            "id": 176,
-            "name": "Druide du cercle des rêves",
+            "number": 176,
             "rarity": "rare",
             "type": "creature",
-            "subtypes": ["elf", "druid"],
             "colors": ["green"],
             "cost": {
                 "black": 0,
@@ -2921,11 +2913,9 @@
             }
         },
         {
-            "id": 177,
-            "name": "Druide du cercle de la lune",
+            "number": 177,
             "rarity": "common",
             "type": "creature",
-            "subtypes": ["human", "elf", "druid"],
             "colors": ["green"],
             "cost": {
                 "black": 0,
@@ -2938,7 +2928,7 @@
             }
         },
         {
-            "id": 178,
+            "number": 178,
             "name": "Duel forcé",
             "rarity": "common",
             "type": "sorcery",
@@ -2955,7 +2945,7 @@
             }
         },
         {
-            "id": 179,
+            "number": 179,
             "name": "Rôdeur loup sanguinaire",
             "rarity": "common",
             "type": "creature",
@@ -2972,8 +2962,7 @@
             }
         },
         {
-            "id": 180,
-            "name": "Classe : druide",
+            "number": 180,
             "rarity": "uncommon",
             "type": "enchantment",
             "subtypes": ["class"],
@@ -2989,7 +2978,7 @@
             }
         },
         {
-            "id": 181,
+            "number": 181,
             "name": "Ellywick Grattechambard",
             "rarity": "mythic",
             "type": "legendary planeswalker",
@@ -3006,7 +2995,7 @@
             }
         },
         {
-            "id": 182,
+            "number": 182,
             "name": "Rôdeuse de l'Elturgard",
             "rarity": "common",
             "type": "creature",
@@ -3023,7 +3012,7 @@
             }
         },
         {
-            "id": 183,
+            "number": 183,
             "name": "Trouver un chemin",
             "rarity": "common",
             "type": "enchantment",
@@ -3040,7 +3029,7 @@
             }
         },
         {
-            "id": 184,
+            "number": 184,
             "name": "Craphémoth",
             "rarity": "rare",
             "type": "creature",
@@ -3057,7 +3046,7 @@
             }
         },
         {
-            "id": 185,
+            "number": 185,
             "name": "Chasseur gnoll",
             "rarity": "common",
             "type": "creature",
@@ -3074,7 +3063,7 @@
             }
         },
         {
-            "id": 186,
+            "number": 186,
             "name": "Dragon vert",
             "rarity": "uncommon",
             "type": "creature",
@@ -3091,7 +3080,7 @@
             }
         },
         {
-            "id": 187,
+            "number": 187,
             "name": "Avaleur de bétail géant des collines",
             "rarity": "common",
             "type": "creature",
@@ -3108,7 +3097,7 @@
             }
         },
         {
-            "id": 188,
+            "number": 188,
             "name": "Marque du chasseur",
             "rarity": "uncommon",
             "type": "instant",
@@ -3125,7 +3114,7 @@
             }
         },
         {
-            "id": 189,
+            "number": 189,
             "name": "Barde inspirateur",
             "rarity": "common",
             "type": "creature",
@@ -3142,7 +3131,7 @@
             }
         },
         {
-            "id": 190,
+            "number": 190,
             "name": "Instrument des bardes",
             "rarity": "rare",
             "type": "legendary artifact",
@@ -3159,8 +3148,7 @@
             }
         },
         {
-            "id": 191,
-            "name": "Pérégrine intrépide",
+            "number": 191,
             "rarity": "uncommon",
             "type": "creature",
             "subtypes": ["orc", "ranger"],
@@ -3176,7 +3164,7 @@
             }
         },
         {
-            "id": 192,
+            "number": 192,
             "name": "Troll répugnant",
             "rarity": "uncommon",
             "type": "creature",
@@ -3193,7 +3181,7 @@
             }
         },
         {
-            "id": 193,
+            "number": 193,
             "name": "Repos long",
             "rarity": "rare",
             "type": "sorcery",
@@ -3210,7 +3198,7 @@
             }
         },
         {
-            "id": 194,
+            "number": 194,
             "name": "Enlaceur sournois",
             "rarity": "uncommon",
             "type": "creature",
@@ -3227,7 +3215,7 @@
             }
         },
         {
-            "id": 195,
+            "number": 195,
             "name": "Dryade de Padhiver",
             "rarity": "common",
             "type": "creature",
@@ -3244,7 +3232,7 @@
             }
         },
         {
-            "id": 196,
+            "number": 196,
             "name": "Gelée ocre",
             "rarity": "rare",
             "type": "creature",
@@ -3261,7 +3249,7 @@
             }
         },
         {
-            "id": 197,
+            "number": 197,
             "name": "La Vieille Ronge-os",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -3278,7 +3266,7 @@
             }
         },
         {
-            "id": 198,
+            "number": 198,
             "name": "Ours-hibou",
             "rarity": "common",
             "type": "creature",
@@ -3295,7 +3283,7 @@
             }
         },
         {
-            "id": 199,
+            "number": 199,
             "name": "Tomber à pic",
             "rarity": "common",
             "type": "instant",
@@ -3312,7 +3300,7 @@
             }
         },
         {
-            "id": 200,
+            "number": 200,
             "name": "Aubergiste prospère",
             "rarity": "uncommon",
             "type": "creature",
@@ -3329,7 +3317,7 @@
             }
         },
         {
-            "id": 201,
+            "number": 201,
             "name": "Ver pourpre",
             "rarity": "uncommon",
             "type": "creature",
@@ -3346,7 +3334,7 @@
             }
         },
         {
-            "id": 202,
+            "number": 202,
             "name": "Classe : rôdeur",
             "rarity": "rare",
             "type": "enchantment",
@@ -3363,7 +3351,7 @@
             }
         },
         {
-            "id": 203,
+            "number": 203,
             "name": "Arc long du rôdeur",
             "rarity": "common",
             "type": "artifact",
@@ -3380,11 +3368,10 @@
             }
         },
         {
-            "id": 204,
+            "number": 204,
             "name": "Herboriste écailleuse",
             "rarity": "common",
             "type": "creature",
-            "subtypes": ["lizard", "druid"],
             "colors": ["green"],
             "cost": {
                 "black": 0,
@@ -3397,7 +3384,7 @@
             }
         },
         {
-            "id": 205,
+            "number": 205,
             "name": "Butin de la chasse",
             "rarity": "common",
             "type": "instant",
@@ -3414,11 +3401,10 @@
             }
         },
         {
-            "id": 206,
+            "number": 206,
             "name": "Bergère sylvestre",
             "rarity": "common",
             "type": "creature",
-            "subtypes": ["human", "druid"],
             "colors": ["green"],
             "cost": {
                 "black": 0,
@@ -3431,7 +3417,7 @@
             }
         },
         {
-            "id": 207,
+            "number": 207,
             "name": "La tarasque",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -3448,7 +3434,7 @@
             }
         },
         {
-            "id": 208,
+            "number": 208,
             "name": "Basilic d'Outreterre",
             "rarity": "common",
             "type": "creature",
@@ -3465,7 +3451,7 @@
             }
         },
         {
-            "id": 209,
+            "number": 209,
             "name": "Varis, rôdeur de Lunargent",
             "rarity": "rare",
             "type": "legendary creature",
@@ -3482,7 +3468,7 @@
             }
         },
         {
-            "id": 210,
+            "number": 210,
             "name": "Troubadouresse errante",
             "rarity": "uncommon",
             "type": "creature",
@@ -3499,7 +3485,7 @@
             }
         },
         {
-            "id": 211,
+            "number": 211,
             "name": "Chef de meute de loups-garous",
             "rarity": "rare",
             "type": "creature",
@@ -3516,7 +3502,7 @@
             }
         },
         {
-            "id": 212,
+            "number": 212,
             "name": "Forme sauvage",
             "rarity": "uncommon",
             "type": "instant",
@@ -3533,8 +3519,7 @@
             }
         },
         {
-            "id": 213,
-            "name": "Vous trouvez une idôle maudite",
+            "number": 213,
             "rarity": "common",
             "type": "sorcery",
             "subtypes": [],
@@ -3550,7 +3535,7 @@
             }
         },
         {
-            "id": 214,
+            "number": 214,
             "name": "Vous débouchez sur une clairière",
             "rarity": "uncommon",
             "type": "instant",
@@ -3567,7 +3552,7 @@
             }
         },
         {
-            "id": 215,
+            "number": 215,
             "name": "Vous vous retrouvez à la taverne",
             "rarity": "uncommon",
             "type": "sorcery",
@@ -3584,7 +3569,7 @@
             }
         },
         {
-            "id": 216,
+            "number": 216,
             "name": "Dragon d'or adulte",
             "rarity": "rare",
             "type": "creature",
@@ -3601,7 +3586,7 @@
             }
         },
         {
-            "id": 217,
+            "number": 217,
             "name": "Classe : barde",
             "rarity": "rare",
             "type": "enchantment",
@@ -3618,7 +3603,7 @@
             }
         },
         {
-            "id": 218,
+            "number": 218,
             "name": "Barrowin du clan Undurr",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3635,7 +3620,7 @@
             }
         },
         {
-            "id": 219,
+            "number": 219,
             "name": "Bruenor Marteaudeguerre",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3652,7 +3637,7 @@
             }
         },
         {
-            "id": 220,
+            "number": 220,
             "name": "Drizzt Do'Urden",
             "rarity": "rare",
             "type": "legendary creature",
@@ -3669,8 +3654,7 @@
             }
         },
         {
-            "id": 221,
-            "name": "Farideh, élue du Diable",
+            "number": 221,
             "rarity": "uncommon",
             "type": "legendary creature",
             "subtypes": ["tiefling", "warlock"],
@@ -3686,7 +3670,7 @@
             }
         },
         {
-            "id": 222,
+            "number": 222,
             "name": "Classe : guerrier",
             "rarity": "rare",
             "type": "enchantment",
@@ -3703,11 +3687,10 @@
             }
         },
         {
-            "id": 223,
+            "number": 223,
             "name": "Gretchen Saulemouflet",
             "rarity": "uncommon",
             "type": "legendary creature",
-            "subtypes": ["halfling", "druid"],
             "colors": ["green", "blue"],
             "cost": {
                 "black": 0,
@@ -3720,7 +3703,7 @@
             }
         },
         {
-            "id": 224,
+            "number": 224,
             "name": "Hama Pashar, chercheuse de ruines",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3737,7 +3720,7 @@
             }
         },
         {
-            "id": 225,
+            "number": 225,
             "name": "Kalain, peintre solitaire",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3754,7 +3737,7 @@
             }
         },
         {
-            "id": 226,
+            "number": 226,
             "name": "Krydle de la Porte de Baldur",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3771,7 +3754,7 @@
             }
         },
         {
-            "id": 227,
+            "number": 227,
             "name": "Minsc, rôdeur apprécié",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -3788,7 +3771,7 @@
             }
         },
         {
-            "id": 228,
+            "number": 228,
             "name": "Classe : moine",
             "rarity": "rare",
             "type": "enchantment",
@@ -3805,7 +3788,7 @@
             }
         },
         {
-            "id": 229,
+            "number": 229,
             "name": "Orcus, prince de la Non-Vie",
             "rarity": "rare",
             "type": "legendary creature",
@@ -3822,7 +3805,7 @@
             }
         },
         {
-            "id": 203,
+            "number": 230,
             "name": "Classe : roublard",
             "rarity": "rare",
             "type": "enchantment",
@@ -3839,7 +3822,7 @@
             }
         },
         {
-            "id": 231,
+            "number": 231,
             "name": "Shessra, murmure de la mort",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3856,7 +3839,7 @@
             }
         },
         {
-            "id": 232,
+            "number": 232,
             "name": "Nuée squelettique",
             "rarity": "rare",
             "type": "enchantment",
@@ -3873,7 +3856,7 @@
             }
         },
         {
-            "id": 233,
+            "number": 233,
             "name": "Classe : ensorceleur",
             "rarity": "rare",
             "type": "enchantment",
@@ -3890,7 +3873,7 @@
             }
         },
         {
-            "id": 234,
+            "number": 234,
             "name": "Tar Nar, gnoll croc-démon",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3907,7 +3890,7 @@
             }
         },
         {
-            "id": 235,
+            "number": 235,
             "name": "Tiamat",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -3924,7 +3907,7 @@
             }
         },
         {
-            "id": 236,
+            "number": 236,
             "name": "Trelasarra, danseuse de la lune",
             "rarity": "uncommon",
             "type": "legendary creature",
@@ -3941,7 +3924,7 @@
             }
         },
         {
-            "id": 237,
+            "number": 237,
             "name": "Aventurier triomphant",
             "rarity": "rare",
             "type": "creature",
@@ -3958,8 +3941,7 @@
             }
         },
         {
-            "id": 238,
-            "name": "Volo, guide des monstres",
+            "number": 238,
             "rarity": "rare",
             "type": "legendary creature",
             "subtypes": ["human", "wizard"],
@@ -3975,7 +3957,7 @@
             }
         },
         {
-            "id": 239,
+            "number": 239,
             "name": "Xanathar, baron de la guilde",
             "rarity": "mythic",
             "type": "legendary creature",
@@ -3992,7 +3974,7 @@
             }
         },
         {
-            "id": 240,
+            "number": 240,
             "name": "Sac sans fond",
             "rarity": "uncommon",
             "type": "artifact",
@@ -4009,7 +3991,7 @@
             }
         },
         {
-            "id": 241,
+            "number": 241,
             "name": "Les cartes merveilleuses",
             "rarity": "mythic",
             "type": "legendary artifact",
@@ -4026,7 +4008,7 @@
             }
         },
         {
-            "id": 242,
+            "number": 242,
             "name": "Carte du donjon",
             "rarity": "uncommon",
             "type": "artifact",
@@ -4043,7 +4025,7 @@
             }
         },
         {
-            "id": 243,
+            "number": 243,
             "name": "Oeil de Vecna",
             "rarity": "rare",
             "type": "legendary artifact",
@@ -4060,7 +4042,7 @@
             }
         },
         {
-            "id": 244,
+            "number": 244,
             "name": "Quinze mètres de corde",
             "rarity": "uncommon",
             "type": "artifact",
@@ -4077,7 +4059,7 @@
             }
         },
         {
-            "id": 245,
+            "number": 245,
             "name": "Hache à deux mains",
             "rarity": "common",
             "type": "artifact",
@@ -4094,7 +4076,7 @@
             }
         },
         {
-            "id": 246,
+            "number": 246,
             "name": "Main de Vecna",
             "rarity": "rare",
             "type": "legendary artifact",
@@ -4111,7 +4093,7 @@
             }
         },
         {
-            "id": 247,
+            "number": 247,
             "name": "Golem de fer",
             "rarity": "uncommon",
             "type": "artifact creature",
@@ -4128,7 +4110,7 @@
             }
         },
         {
-            "id": 248,
+            "number": 248,
             "name": "Armure de cuir",
             "rarity": "common",
             "type": "artifact",
@@ -4145,7 +4127,7 @@
             }
         },
         {
-            "id": 249,
+            "number": 249,
             "name": "Mimique",
             "rarity": "common",
             "type": "artifact",
@@ -4162,7 +4144,7 @@
             }
         },
         {
-            "id": 250,
+            "number": 250,
             "name": "Dague de rechange",
             "rarity": "common",
             "type": "artifact",
@@ -4179,7 +4161,7 @@
             }
         },
         {
-            "id": 251,
+            "number": 251,
             "name": "Fosse hérissée de pieux",
             "rarity": "common",
             "type": "artifact",
@@ -4196,7 +4178,7 @@
             }
         },
         {
-            "id": 252,
+            "number": 252,
             "name": "Coffre au trésor",
             "rarity": "rare",
             "type": "artifact",
@@ -4213,7 +4195,7 @@
             }
         },
         {
-            "id": 253,
+            "number": 253,
             "name": "Grotte du dragon de givre",
             "rarity": "rare",
             "type": "land",
@@ -4230,7 +4212,7 @@
             }
         },
         {
-            "id": 254,
+            "number": 254,
             "name": "Tanière du gobelours",
             "rarity": "rare",
             "type": "land",
@@ -4247,7 +4229,7 @@
             }
         },
         {
-            "id": 255,
+            "number": 255,
             "name": "Descente dans le donjon",
             "rarity": "rare",
             "type": "land",
@@ -4264,7 +4246,7 @@
             }
         },
         {
-            "id": 256,
+            "number": 256,
             "name": "Étendues sauvages en évolution",
             "rarity": "common",
             "type": "land",
@@ -4281,7 +4263,7 @@
             }
         },
         {
-            "id": 257,
+            "number": 257,
             "name": "Halle des géants des tempêtes",
             "rarity": "rare",
             "type": "land",
@@ -4298,7 +4280,7 @@
             }
         },
         {
-            "id": 258,
+            "number": 258,
             "name": "Essaim du despote tyrannoeil",
             "rarity": "rare",
             "type": "land",
@@ -4315,7 +4297,7 @@
             }
         },
         {
-            "id": 259,
+            "number": 259,
             "name": "Repaire de l'hydre",
             "rarity": "rare",
             "type": "land",
@@ -4332,7 +4314,7 @@
             }
         },
         {
-            "id": 260,
+            "number": 260,
             "name": "Temple de la Reine des Dragons",
             "rarity": "uncommon",
             "type": "land",
@@ -4349,7 +4331,7 @@
             }
         },
         {
-            "id": 261,
+            "number": 261,
             "name": "Salle au trésor",
             "rarity": "rare",
             "type": "artifact land",
