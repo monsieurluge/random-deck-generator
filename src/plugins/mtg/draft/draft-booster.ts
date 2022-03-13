@@ -13,9 +13,9 @@ export function DraftBooster(collection: CardCollection<MtgCard>) {
 
     function open(): CardCollection<MtgCard> {
         if (opened) {
-            throw Error('sorry but this MTG draft booster has already been opened')
+            throw Error('a draft booster can only be opened once')
         }
-        const pools: CardPool[] = [
+        const pools: CardPool<MtgCard>[] = [
             ...welcomeCards(collection),
             ...fireworksCards(collection),
             ...fireworks2Cards(collection),
