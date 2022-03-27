@@ -9,8 +9,6 @@ export const and = (constraints: Constraint[]) => (card: MtgCard) => constraints
 
 export const colorIs = (color: Color) => (card: MtgCard) => card.colors.every(cardColor => cardColor === color)
 
-export const firstEncountered = () => true
-
 export const not = (constraint: Constraint) => (card: MtgCard) => !constraint(card)
 
 export const ofType = (cardType: CardType) => (card: MtgCard) => card.type === cardType

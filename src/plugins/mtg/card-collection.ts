@@ -4,21 +4,24 @@ import { MtgCard } from './card/card'
 import { Constraint } from './constraints'
 
 export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<MtgCard> {
-    const inCollection = pools
+    let inCollection = pools
 
-    function pick(constraint: Constraint): MtgCard {
-        const found: CardPool<MtgCard>[] = inCollection.filter((pool: CardPool<MtgCard>) => pool.total > 0 && constraint(pool.card))
-        if (found.length === 0) {
-            throw Error('there is no card in the pool for this constraint')
-        }
-        const randomCardId = Math.floor(Math.random() * found.length)
-        const card = found[randomCardId].card
-        found[randomCardId].total -= 1
-        return card
-    }
-
-    function remaining(): number {
-        return inCollection.reduce((total, pool) => total + pool.total, 0)
+    function pick(id: string): MtgCard {
+        let picked: MtgCard
+        inCollection = inCollection.map(pool => {
+            if (pool.card.id === id) {
+                if (pool.total === 0) {
+                    throw new Error(`cannot pick the #${id} card: 0 in pool`)
+                }
+                picked = pool.card
+                return {
+                    card: pool.card,
+                    total: pool.total - 1,
+                }
+            }
+            return pool
+        })
+        return picked
     }
 
     function search(constraint: Constraint): CardPool<MtgCard>[] {
@@ -27,7 +30,6 @@ export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<Mt
 
     return Object.freeze({
         pick,
-        remaining,
         search,
     })
 }

@@ -2,7 +2,9 @@ import { CardCollection } from '../../../generator/collection'
 import { MtgCardCollection } from '../card-collection'
 import { CardPool } from '../card-pool'
 import { MtgCard } from '../card/card'
-import { rarityIs } from '../constraints'
+import { Constraint, rarityIs } from '../constraints'
+
+const atRandom = () => Math.random() > 0.5 ? 1 : -1
 
 /**
  * cards distribution in a set (https://cardgamebase.com/mtg-set-booster-contents)
@@ -10,6 +12,20 @@ import { rarityIs } from '../constraints'
  */
 export function DraftBooster(collection: CardCollection<MtgCard>) {
     let opened = false
+
+    function logBoosterContent(pools: CardPool<MtgCard>[]) {
+        console.log(' >> booster pack opened:')
+        console.table(pools.map(pool => ({
+            rarity: pool.card.rarity,
+            name: pool.card.name,
+            colors: pool.card.colors.join(', ') || '---',
+        })))
+    }
+
+    function oneCardAtRandom(collection: CardCollection<MtgCard>, constraint: Constraint): MtgCard {
+        const id: string = collection.search(constraint).sort(atRandom)[0].card.id
+        return collection.pick(id)
+    }
 
     function open(): CardCollection<MtgCard> {
         if (opened) {
@@ -22,6 +38,7 @@ export function DraftBooster(collection: CardCollection<MtgCard>) {
             ...bigFinishCards(collection),
             ...bigFinish2Cards(collection),
         ].map(card => ({ card, total: 1 }))
+        logBoosterContent(pools)
         opened = true
         return MtgCardCollection(pools)
     }
@@ -37,12 +54,11 @@ export function DraftBooster(collection: CardCollection<MtgCard>) {
      */
     function welcomeCards(collection: CardCollection<MtgCard>): MtgCard[] {
         return [
-            collection.pick(rarityIs('common')),
-            collection.pick(rarityIs('common')),
-            collection.pick(rarityIs('common')),
-            collection.pick(rarityIs('common')),
-            collection.pick(rarityIs('uncommon')),
-            collection.pick(rarityIs('uncommon')),
+            oneCardAtRandom(collection, rarityIs('common')),
+            oneCardAtRandom(collection, rarityIs('common')),
+            oneCardAtRandom(collection, rarityIs('common')),
+            oneCardAtRandom(collection, rarityIs('common')),
+            oneCardAtRandom(collection, rarityIs('common')),
         ]
     }
 
@@ -53,7 +69,7 @@ export function DraftBooster(collection: CardCollection<MtgCard>) {
      */
     function fireworksCards(collection: CardCollection<MtgCard>): MtgCard[] {
         return [
-            collection.pick(rarityIs('common')),
+            oneCardAtRandom(collection, rarityIs('common')),
         ]
     }
 
@@ -68,8 +84,8 @@ export function DraftBooster(collection: CardCollection<MtgCard>) {
      */
     function fireworks2Cards(collection: CardCollection<MtgCard>): MtgCard[] {
         return [
-            collection.pick(rarityIs('common')),
-            collection.pick(rarityIs('rare')),
+            oneCardAtRandom(collection, rarityIs('common')),
+            oneCardAtRandom(collection, rarityIs('rare')),
         ]
     }
 
@@ -80,7 +96,7 @@ export function DraftBooster(collection: CardCollection<MtgCard>) {
      */
     function bigFinishCards(collection: CardCollection<MtgCard>): MtgCard[] {
         return [
-            collection.pick(rarityIs('rare')),
+            oneCardAtRandom(collection, rarityIs('rare')),
         ]
     }
 
@@ -93,7 +109,7 @@ export function DraftBooster(collection: CardCollection<MtgCard>) {
      */
     function bigFinish2Cards(collection: CardCollection<MtgCard>): MtgCard[] {
         return [
-            collection.pick(rarityIs('uncommon')),
+            oneCardAtRandom(collection, rarityIs('uncommon')),
         ]
     }
 
