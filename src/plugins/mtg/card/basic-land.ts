@@ -1,8 +1,9 @@
 import { MtgCard } from './card'
 
 export const Forest: MtgCard = {
+    id: 'basic forest',
     name: 'forest',
-    colors: ['green'],
+    colors: [ 'green' ],
     rarity: 'common',
     type: 'basic land',
     cost: [],
@@ -10,8 +11,9 @@ export const Forest: MtgCard = {
 }
 
 export const Plain: MtgCard = {
+    id: 'basic plain',
     name: 'plain',
-    colors: ['white'],
+    colors: [ 'white' ],
     rarity: 'common',
     type: 'basic land',
     cost: [],
@@ -19,8 +21,9 @@ export const Plain: MtgCard = {
 }
 
 export const Island: MtgCard = {
+    id: 'basic island',
     name: 'island',
-    colors: ['blue'],
+    colors: [ 'blue' ],
     rarity: 'common',
     type: 'basic land',
     cost: [],
@@ -28,8 +31,9 @@ export const Island: MtgCard = {
 }
 
 export const Mountain: MtgCard = {
+    id: 'basic mountain',
     name: 'mountain',
-    colors: ['red'],
+    colors: [ 'red' ],
     rarity: 'common',
     type: 'basic land',
     cost: [],
@@ -37,8 +41,9 @@ export const Mountain: MtgCard = {
 }
 
 export const Swamp: MtgCard = {
+    id: 'basic swamp',
     name: 'swamp',
-    colors: ['black'],
+    colors: [ 'black' ],
     rarity: 'common',
     type: 'basic land',
     cost: [],
