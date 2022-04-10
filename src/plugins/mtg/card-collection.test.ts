@@ -22,55 +22,43 @@ function createMtgCardPool(
     }
 }
 
-tape(
-    'requesting a card when the collection is empty',
-    (test) => {
-        // GIVEN
-        const emptyCollection = MtgCardCollection([])
-        // THEN
-        test.throws(() => emptyCollection.card('foo'), 'is not allowed')
-        test.end()
-    },
-)
+tape('requesting a card when the collection is empty', (test) => {
+    // GIVEN
+    const emptyCollection = MtgCardCollection([])
+    // THEN
+    test.throws(() => emptyCollection.card('foo'), 'is not allowed')
+    test.end()
+})
 
-tape(
-    'requesting a card from a collection',
-    (test) => {
-        // GIVEN
-        const collection = MtgCardCollection([
-            createMtgCardPool(3, { id: 'foo' }),
-            createMtgCardPool(1, { id: 'bar' }),
-        ])
-        // WHEN
-        const foo = collection.card('foo')
-        // THEN
-        test.equal('foo', foo.id, 'returns that card data')
-        test.end()
-    },
-)
+tape('requesting a card from a collection', (test) => {
+    // GIVEN
+    const collection = MtgCardCollection([
+        createMtgCardPool(3, { id: 'foo' }),
+        createMtgCardPool(1, { id: 'bar' }),
+    ])
+    // WHEN
+    const foo = collection.card('foo')
+    // THEN
+    test.equal('foo', foo.id, 'returns that card data')
+    test.end()
+})
 
-tape(
-    'pick one card from an empty collection',
-    (test) => {
-        // GIVEN
-        const emptyCollection = MtgCardCollection([])
-        // THEN
-        test.throws(() => emptyCollection.pick('foo'), 'is not allowed')
-        test.end()
-    },
-)
+tape('pick one card from an empty collection', (test) => {
+    // GIVEN
+    const emptyCollection = MtgCardCollection([])
+    // THEN
+    test.throws(() => emptyCollection.pick('foo'), 'is not allowed')
+    test.end()
+})
 
-tape(
-    'pick the last card of a collection',
-    (test) => {
-        // GIVEN
-        const oneCardCollection = MtgCardCollection([
-            createMtgCardPool(1, { id: 'foo' }),
-        ])
-        // WHEN
-        oneCardCollection.pick('foo')
-        // THEN
-        test.equal(0, oneCardCollection.remaining(), 'leaves it empty')
-        test.end()
-    },
-)
+tape('pick the last card of a collection', (test) => {
+    // GIVEN
+    const oneCardCollection = MtgCardCollection([
+        createMtgCardPool(1, { id: 'foo' }),
+    ])
+    // WHEN
+    oneCardCollection.pick('foo')
+    // THEN
+    test.equal(0, oneCardCollection.remaining(), 'leaves it empty')
+    test.end()
+})
