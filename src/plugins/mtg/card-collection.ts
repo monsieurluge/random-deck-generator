@@ -4,43 +4,30 @@ import { MtgCard } from './card/card'
 import { Constraint } from './constraints'
 
 export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<MtgCard> {
-    let inCollection = pools
-
     function card(id: string): MtgCard {
-        const found = inCollection.find(pool => pool.card.id === id)
-        if (!found) {
+        const found = pools.find(pool => pool.card.id === id)
+        if (!found || found.total === 0) {
             throw new Error(`the card #${id} does not exist`)
         }
         return found.card
     }
 
-    function pick(id: string): MtgCard {
-        let picked: MtgCard | undefined
-        inCollection = inCollection.map(pool => {
-            if (pool.card.id === id) {
-                if (pool.total === 0) {
-                    throw new Error(`cannot pick the #${id} card: 0 in pool`)
-                }
-                picked = pool.card
-                return {
-                    card: pool.card,
-                    total: pool.total - 1,
-                }
-            }
-            return pool
+    function pick(id: string):CardCollection<MtgCard> {
+        card(id) // does the card exists ?
+        const updatedPools = pools.map(({ card, total }) => {
+            return card.id === id
+                ? { card, total: total - 1 }
+                : { card, total }
         })
-        if (!picked) {
-            throw new Error(`cannot pick the #${id} card: not found`)
-        }
-        return picked
+        return MtgCardCollection(updatedPools)
     }
 
     function remaining(): number {
-        return inCollection.reduce((total, pool) => total + pool.total, 0)
+        return pools.reduce((total, pool) => total + pool.total, 0)
     }
 
     function search(constraint: Constraint): CardPool<MtgCard>[] {
-        return inCollection.filter((pool: CardPool<MtgCard>) => pool.total > 0 && constraint(pool.card))
+        return pools.filter((pool: CardPool<MtgCard>) => pool.total > 0 && constraint(pool.card))
     }
 
     return Object.freeze({

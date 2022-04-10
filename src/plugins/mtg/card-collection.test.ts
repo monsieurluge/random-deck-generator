@@ -57,8 +57,8 @@ tape('pick the last card of a collection', (test) => {
         createMtgCardPool(1, { id: 'foo' }),
     ])
     // WHEN
-    oneCardCollection.pick('foo')
+    const emptyCollection = oneCardCollection.pick('foo')
     // THEN
-    test.equal(0, oneCardCollection.remaining(), 'leaves it empty')
+    test.equal(0, emptyCollection.remaining(), 'returns an empty collection')
     test.end()
 })
