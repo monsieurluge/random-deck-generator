@@ -1,19 +1,25 @@
 import tape from 'tape'
 import { MtgCardCollection } from './card-collection'
+import { CardPool } from './card-pool'
 import { MtgCard } from './card/card'
 import { CardType } from './card/card-type'
 import { Rarity } from './card/rarity'
 
-function createMtgCard({
-    id = 'foo',
-    name = 'Foo',
-    rarity = 'common' as Rarity,
-    type = 'creature' as CardType,
-    subtypes = [],
-    colors = [],
-    cost = [],
-} = {}): MtgCard {
-    return { id, name, rarity, type, subtypes, colors, cost }
+function createMtgCardPool(
+    total: number = 1, {
+        id = 'foo',
+        name = 'Foo',
+        rarity = 'common' as Rarity,
+        type = 'creature' as CardType,
+        subtypes = [],
+        colors = [],
+        cost = [],
+    } = {},
+): CardPool<MtgCard> {
+    return {
+        card: { id, name, rarity, type, subtypes, colors, cost },
+        total,
+    }
 }
 
 tape(
@@ -32,14 +38,8 @@ tape(
     (test) => {
         // GIVEN
         const collection = MtgCardCollection([
-            {
-                card: createMtgCard({ id: 'foo' }),
-                total: 3,
-            },
-            {
-                card: createMtgCard({ id: 'bar' }),
-                total: 1,
-            },
+            createMtgCardPool(3, { id: 'foo' }),
+            createMtgCardPool(1, { id: 'bar' }),
         ])
         // WHEN
         const foo = collection.card('foo')
@@ -65,10 +65,7 @@ tape(
     (test) => {
         // GIVEN
         const oneCardCollection = MtgCardCollection([
-            {
-                card: createMtgCard({ id: 'foo' }),
-                total: 1,
-            },
+            createMtgCardPool(1, { id: 'foo' }),
         ])
         // WHEN
         oneCardCollection.pick('foo')
