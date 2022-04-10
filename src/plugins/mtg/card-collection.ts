@@ -7,7 +7,7 @@ export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<Mt
     let inCollection = pools
 
     function pick(id: string): MtgCard {
-        let picked: MtgCard
+        let picked: MtgCard | undefined
         inCollection = inCollection.map(pool => {
             if (pool.card.id === id) {
                 if (pool.total === 0) {
@@ -21,7 +21,14 @@ export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<Mt
             }
             return pool
         })
+        if (!picked) {
+            throw new Error(`cannot pick the #${id} card: not found`)
+        }
         return picked
+    }
+
+    function remaining(): number {
+        return inCollection.reduce((total, pool) => total + pool.total, 0)
     }
 
     function search(constraint: Constraint): CardPool<MtgCard>[] {
@@ -30,6 +37,7 @@ export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<Mt
 
     return Object.freeze({
         pick,
+        remaining,
         search,
     })
 }
