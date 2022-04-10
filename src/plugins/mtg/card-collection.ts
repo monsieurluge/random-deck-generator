@@ -6,6 +6,14 @@ import { Constraint } from './constraints'
 export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<MtgCard> {
     let inCollection = pools
 
+    function card(id: string): MtgCard {
+        const found = inCollection.find(pool => pool.card.id === id)
+        if (!found) {
+            throw new Error(`the card #${id} does not exist`)
+        }
+        return found.card
+    }
+
     function pick(id: string): MtgCard {
         let picked: MtgCard | undefined
         inCollection = inCollection.map(pool => {
@@ -36,6 +44,7 @@ export function MtgCardCollection(pools: CardPool<MtgCard>[]): CardCollection<Mt
     }
 
     return Object.freeze({
+        card,
         pick,
         remaining,
         search,

@@ -17,11 +17,43 @@ function createMtgCard({
 }
 
 tape(
+    'requesting a card when the collection is empty',
+    (test) => {
+        // GIVEN
+        const emptyCollection = MtgCardCollection([])
+        // THEN
+        test.throws(() => emptyCollection.card('foo'), 'is not allowed')
+        test.end()
+    },
+)
+
+tape(
+    'requesting a card from a collection',
+    (test) => {
+        // GIVEN
+        const collection = MtgCardCollection([
+            {
+                card: createMtgCard({ id: 'foo' }),
+                total: 3,
+            },
+            {
+                card: createMtgCard({ id: 'bar' }),
+                total: 1,
+            },
+        ])
+        // WHEN
+        const foo = collection.card('foo')
+        // THEN
+        test.equal('foo', foo.id, 'returns that card data')
+        test.end()
+    },
+)
+
+tape(
     'pick one card from an empty collection',
     (test) => {
         // GIVEN
         const emptyCollection = MtgCardCollection([])
-        // WHEN
         // THEN
         test.throws(() => emptyCollection.pick('foo'), 'is not allowed')
         test.end()
