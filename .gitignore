@@ -1,4 +1,8 @@
-/dist
-/node_modules
-/.parcel-cache
-tsconfig.tsbuildinfo
+logs
+*.log
+npm-debug.log*
+
+dist
+dist-ssr
+node_modules
+*.local

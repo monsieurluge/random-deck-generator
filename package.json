@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "start": "parcel src/index.html"
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite-preview"
   },
   "repository": {
     "type": "git",
@@ -26,16 +28,21 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
+    "@vitejs/plugin-vue": "^2.3.3",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
-    "parcel": "^2.3.1",
     "ts-node": "^10.5.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.7"
   },
   "volta": {
     "node": "18.4.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
   }
 }
