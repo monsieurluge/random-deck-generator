@@ -1,57 +1,47 @@
 <template>
     <button @click="onClick">generate</button>
     <h1>Result</h1>
-    <pre v-if="hasCards">{{ generatedDeck }}</pre>
+    <template v-if="hasCards">
+        <Card v-for="card in generatedDeck" v-bind="card" />
+    </template>
     <p v-else>empty list</p>
 </template>
 
 <script setup lang="ts">
-import { reactive } from 'vue';
-import { MtgCard } from './plugins/mtg/card/card';
-import { Deck } from './generator/deck';
-import { MtgCardCollection } from './plugins/mtg/card-collection';
-import { CardPool } from './plugins/mtg/card-pool';
-import { BoosterDraftGenerator } from './plugins/mtg/generator/booster-draft-generator';
-import collection from './cards-collections/my-mtg-collection.json'
-import { computed } from '@vue/reactivity';
+    import { ref } from 'vue';
+    import type { Ref } from 'vue';
+    import { MtgCard } from './plugins/mtg/card/card';
+    import { ManaCost } from './plugins/mtg/card/mana-cost'
+    import { Deck } from './generator/deck';
+    import { MtgCardCollection } from './plugins/mtg/card-collection';
+    import { CardPool } from './plugins/mtg/card-pool';
+    import { BoosterDraftGenerator } from './plugins/mtg/generator/booster-draft-generator';
+    import collection from './cards-collections/my-mtg-collection.json'
+    import { computed } from '@vue/reactivity';
 
-const generatedDeck: string[] = reactive([])
-const pools: CardPool[] = collection.pools
+    import Card from './ui/generator/Card.vue'
 
-const generator = BoosterDraftGenerator(
-    MtgCardCollection(pools),
-)
+    type MinimalInformations = {
+        cost: ManaCost,
+        name: string,
+    }
 
-const hasCards = computed(() => generatedDeck.length > 0)
+    const generatedDeck: Ref<MinimalInformations[]> = ref([])
+    const pools: CardPool[] = collection.pools
 
-function onClick() {
-    const deck: Deck<MtgCard> = generator.generate()
-
-    generatedDeck.push('test')
-
-    // generatedDeck = deck.list()
-
-    // deck
-    //     .list()
-    //     .map((occurrence: CardOccurrence) => `${occurrence.total} __ ${occurrence.card.name}`)
-    //     .join('<br/>')
-}
-</script>
-
-
-
-
-<!-- import collection from './cards-collections/my-mtg-collection.json'
-import { HtmlUi } from './html-ui'
-import { MtgCardCollection } from './plugins/mtg/card-collection'
-import { CardPool } from './plugins/mtg/card-pool'
-import { BoosterDraftGenerator } from './plugins/mtg/generator/booster-draft-generator'
-
-const pools: CardPool[] = collection.pools
-const ui = HtmlUi(
-    BoosterDraftGenerator(
+    const generator = BoosterDraftGenerator(
         MtgCardCollection(pools),
-    ),
-)
+    )
 
-ui.boot() -->
+    const hasCards = computed(() => generatedDeck.value.length > 0)
+
+    function onClick() {
+        const deck: Deck<MtgCard> = generator.generate()
+        const cards = deck.list().map(card => {
+            const cost = card.card.cost
+            const name = card.card.name
+            return { cost, name }
+        })
+        generatedDeck.value = cards
+    }
+</script>
