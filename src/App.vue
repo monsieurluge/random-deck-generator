@@ -2,7 +2,7 @@
     <button @click="onClick">generate</button>
     <h1>Result</h1>
     <template v-if="hasCards">
-        <Card v-for="card in generatedDeck" v-bind="card" />
+        <Card v-for="card in generatedDeck" v-bind="card" v-bind:key="card.name" />
     </template>
     <p v-else>empty list</p>
 </template>
@@ -11,7 +11,6 @@
     import { ref } from 'vue';
     import type { Ref } from 'vue';
     import { MtgCard } from './plugins/mtg/card/card';
-    import { ManaCost } from './plugins/mtg/card/mana-cost'
     import { Deck } from './generator/deck';
     import { MtgCardCollection } from './plugins/mtg/card-collection';
     import { CardPool } from './plugins/mtg/card-pool';
@@ -22,7 +21,16 @@
     import Card from './ui/generator/Card.vue'
 
     type MinimalInformations = {
-        cost: ManaCost,
+        cost: {
+            black?: number,
+            blue?: number,
+            green?: number,
+            red?: number,
+            white?: number,
+            colorless?: number,
+            xColorless?: boolean,
+            nothing?: boolean,
+        },
         name: string,
     }
 

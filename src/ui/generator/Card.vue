@@ -10,12 +10,20 @@
 </template>
 
 <script setup lang="ts">
-    import { ManaCost as MtgManaCost } from '../../plugins/mtg/card/mana-cost'
     import ManaCost from './ManaCost.vue'
 
     type Card = {
         name: String,
-        cost: MtgManaCost,
+        cost: {
+            black?: number,
+            blue?: number,
+            green?: number,
+            red?: number,
+            white?: number,
+            colorless?: number,
+            xColorless?: boolean,
+            nothing?: boolean,
+        },
     }
 
     const card = defineProps<Card>()
