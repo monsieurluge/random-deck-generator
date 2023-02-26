@@ -1,3 +1,13 @@
+:root {
+    --black-background-color: #cac3c0;
+    --blue-background-color: #b2e0fc;
+    --green-background-color: #a7d2b1;
+    --generic-background-color: #e2dcd9;
+    --generic-foreground-color: #150b00;
+    --red-background-color: #eead93;
+    --white-background-color: #feffef;
+}
+
 body {
     color: ivory;
     background-color: #313131;

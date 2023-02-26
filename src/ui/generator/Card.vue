@@ -1,10 +1,10 @@
 <template>
-    <article>
+    <article class="card">
         <div class="card-header">
             <div class="card-header-item">
                 <span class="card-name">{{ name }}</span>
             </div>
-            <ManaCost class="card-header-item" v-bind="card.cost" />
+            <ManaCost class="card-header-item" :cost="cost" />
         </div>
     </article>
 </template>
@@ -12,25 +12,16 @@
 <script setup lang="ts">
     import ManaCost from './ManaCost.vue'
 
-    type Card = {
+    defineProps<{
         name: String,
-        cost: {
-            black?: number,
-            blue?: number,
-            green?: number,
-            red?: number,
-            white?: number,
-            colorless?: number,
-            xColorless?: boolean,
-            nothing?: boolean,
-        },
-    }
-
-    const card = defineProps<Card>()
+        cost: String,
+    }>()
 </script>
 
 <style scoped>
-    article {
+    .card {
+        width: 350px;
+        /*aspect-ratio: 2.5/3.5;*/
         padding: 8px;
         color: #313131;
         background-color: white;
