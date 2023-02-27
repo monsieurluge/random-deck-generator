@@ -1,11 +1,11 @@
 :root {
-    --black-background-color: #cac3c0;
-    --blue-background-color: #b2e0fc;
-    --green-background-color: #a7d2b1;
-    --generic-background-color: #e2dcd9;
+    --black-background-color: #a49995;
+    --blue-background-color: #c6d8e8;
+    --green-background-color: #a9c09a;
+    --generic-background-color: #cac6c1;
     --generic-foreground-color: #150b00;
-    --red-background-color: #eead93;
-    --white-background-color: #feffef;
+    --red-background-color: #da9e7e;
+    --white-background-color: #f8f6dc;
 }
 
 body {

@@ -1,5 +1,6 @@
 <template>
-    <div class="badge" :class="manaType">{{ value }}</div>
+    <div v-if="isSymbol" class="badge badge-symbol" :class="symbol"></div>
+    <div v-else class="badge colorless">{{ value }}</div>
 </template>
 
 <script setup lang="ts">
@@ -9,14 +10,21 @@
         value: String,
     }>()
 
-    const manaType = computed(() => {
+    const isSymbol = computed(() => {
+        const symbols = ['B', 'G', 'R', 'U', 'W', 'X']
+        return symbols.includes(props.value.toString())
+    })
+
+    const symbol = computed(() => {
         const value = props.value
-        if (value === 'W') return 'white'
-        if (value === 'U') return 'blue'
-        if (value === 'B') return 'black'
-        if (value === 'R') return 'red'
-        if (value === 'G') return 'green'
-        return 'generic'
+        if (value === 'B') return 'symbol-black'
+        if (value === 'G') return 'symbol-green'
+        if (value === 'P') return 'symbol-phyrexian'
+        if (value === 'R') return 'symbol-red'
+        if (value === 'U') return 'symbol-blue'
+        if (value === 'W') return 'symbol-white'
+        if (value === 'X') return 'symbol-x'
+        return 'colorless'
     })
 </script>
 
@@ -26,8 +34,7 @@
     .badge {
         width: 20px;
         height: 20px;
-        font-size: 14px;
-        color: var(--generic-foreground-color);
+        font-size: 16px;
         line-height: 22px;
         text-align: center;
         background-color: var(--generic-background-color);
@@ -35,27 +42,49 @@
         border-bottom: 2px solid rgba(0, 0, 0, 0.4);
     }
 
-    .black {
+    .badge-symbol {
+        background-size: 85%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .symbol-black {
+        background-image: url('./symbols/black.svg');
         background-color: var(--black-background-color);
     }
 
-    .blue {
+    .symbol-blue {
+        background-image: url('./symbols/blue.svg');
         background-color: var(--blue-background-color);
     }
 
-    .generic {
+    .symbol-colorless {
+        color: var(--generic-foreground-color);
         background-color: var(--generic-background-color);
     }
 
-    .green {
+    .symbol-green {
+        background-image: url('./symbols/green.svg');
         background-color: var(--green-background-color);
     }
 
-    .red {
+    .symbol-phyrexian {
+        background-image: url('./symbols/phyrexian.svg');
+        background-color: var(--black-background-color);
+    }
+
+    .symbol-red {
+        background-image: url('./symbols/red.svg');
         background-color: var(--red-background-color);
     }
 
-    .white {
+    .symbol-white {
+        background-image: url('./symbols/white.svg');
         background-color: var(--white-background-color);
+    }
+
+    .symbol-x {
+        background-image: url('./symbols/x.svg');
+        background-color: var(--generic-background-color);
     }
 </style>
