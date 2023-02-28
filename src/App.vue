@@ -5,7 +5,7 @@
         </header>
         <article class="cards">
             <template v-if="hasCards">
-                <Card v-for="card in generatedDeck" v-bind="card" v-bind:key="card.name" />
+                <Deck :deck="generatedDeck" />
             </template>
             <p v-else>empty list</p>
         </article>
@@ -16,21 +16,20 @@
     import { ref } from 'vue';
     import type { Ref } from 'vue';
     import { MtgCard } from './plugins/mtg/card/card';
-    import { Deck } from './generator/deck';
+    import { Deck as GeneratedDeck } from './generator/deck';
+    import Deck from './ui/generator/Deck.vue'
     import { MtgCardCollection } from './plugins/mtg/card-collection';
     import { CardPool } from './plugins/mtg/card-pool';
     import { BoosterDraftGenerator } from './plugins/mtg/generator/booster-draft-generator';
     import collection from './cards-collections/my-mtg-collection.json'
     import { computed } from '@vue/reactivity';
 
-    import Card from './ui/generator/Card.vue'
-
-    type MinimalInformations = {
+    interface Card {
         cost: string,
         name: string,
     }
 
-    const generatedDeck: Ref<MinimalInformations[]> = ref([])
+    const generatedDeck: Ref<Card[]> = ref([])
     const pools: CardPool[] = collection.pools
 
     const generator = BoosterDraftGenerator(
@@ -63,7 +62,7 @@
     }
 
     function onClick() {
-        const deck: Deck<MtgCard> = generator.generate()
+        const deck: GeneratedDeck<MtgCard> = generator.generate()
         const cards = deck.list().map(card => {
             return {
                 cost: toString(card.card.cost),
