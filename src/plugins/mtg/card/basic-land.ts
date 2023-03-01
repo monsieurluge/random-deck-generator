@@ -5,16 +5,16 @@ export const Forest: MtgCard = {
     colors: ['green'],
     rarity: 'common',
     type: 'basic land',
-    cost: [],
+    cost: '',
     subtypes: [],
 }
 
-export const Plain: MtgCard = {
-    name: 'plain',
+export const Plains: MtgCard = {
+    name: 'plains',
     colors: ['white'],
     rarity: 'common',
     type: 'basic land',
-    cost: [],
+    cost: '',
     subtypes: [],
 }
 
@@ -23,7 +23,7 @@ export const Island: MtgCard = {
     colors: ['blue'],
     rarity: 'common',
     type: 'basic land',
-    cost: [],
+    cost: '',
     subtypes: [],
 }
 
@@ -32,7 +32,7 @@ export const Mountain: MtgCard = {
     colors: ['red'],
     rarity: 'common',
     type: 'basic land',
-    cost: [],
+    cost: '',
     subtypes: [],
 }
 
@@ -41,7 +41,7 @@ export const Swamp: MtgCard = {
     colors: ['black'],
     rarity: 'common',
     type: 'basic land',
-    cost: [],
+    cost: '',
     subtypes: [],
 }
 

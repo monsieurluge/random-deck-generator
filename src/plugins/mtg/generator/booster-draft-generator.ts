@@ -1,7 +1,7 @@
 import { Deck } from '../../../generator/deck'
 import { Generator } from '../../../generator/generator'
 import { CardCollection } from '../card-collection'
-import { Plain } from '../card/basic-land'
+import { Plains } from '../card/basic-land'
 import { MtgCard } from '../card/card'
 import { and, colorIs, Constraint, not, ofType } from '../constraints'
 import { MtgDeck } from '../deck'
@@ -44,7 +44,7 @@ export function BoosterDraftGenerator(collection: CardCollection): Generator<Mtg
     function generate(): Deck<MtgCard> {
         const size = 40
         const deck = MtgDeck(size)
-        deck.addMany(16, Plain)
+        deck.addMany(16, Plains)
         while (deck.count() < size) {
             deck.add(collection.pick(whiteCardNotLand))
         }

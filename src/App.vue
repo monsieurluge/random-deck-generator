@@ -16,7 +16,7 @@
     import { ref } from 'vue';
     import type { Ref } from 'vue';
     import { MtgCard } from './plugins/mtg/card/card';
-    import { Deck as GeneratedDeck } from './generator/deck';
+    import { CardOccurrence } from './generator/card-occurrence';
     import Deck from './ui/generator/Deck.vue'
     import { MtgCardCollection } from './plugins/mtg/card-collection';
     import { CardPool } from './plugins/mtg/card-pool';
@@ -25,8 +25,9 @@
     import { computed } from '@vue/reactivity';
 
     interface Card {
-        cost: string,
-        name: string,
+        convertedManaCost: Number
+        cost: String,
+        name: String,
     }
 
     const generatedDeck: Ref<Card[]> = ref([])
@@ -38,38 +39,19 @@
 
     const hasCards = computed(() => generatedDeck.value.length > 0)
 
-    const repeat = (char: string, times: number) => ''.padStart(times, char)
+    const convertedManaCost = (cost: String): Number => cost.split('')
+        .map(Number)
+        .map((value) => isNaN(value) ? 1.01 : value)
+        .reduce((value, total) => value + total, 0)
 
-    const toString = (costs: unknown) => {
-        const x = costs.xColorless ? 'X' : ''
-        const generic = `${costs.colorless || ''}`
-        const white = repeat('W', costs.white || 0)
-        const blue = repeat('U', costs.blue || 0)
-        const green = repeat('G', costs.green || 0)
-        const black = repeat('B', costs.black || 0)
-        const red = repeat('R', costs.red || 0)
-        return [
-            ...x,
-            ...generic,
-            ...white,
-            ...blue,
-            ...green,
-            ...black,
-            ...red,
-        ]
-        .filter((value) => value)
-        .join('')
-    }
+    const poolToCard = (pool: CardOccurrence<MtgCard>): Card => ({
+        convertedManaCost: convertedManaCost(pool.card.cost),
+        cost: pool.card.cost,
+        name: String(pool.card.name),
+    })
 
     function onClick() {
-        const deck: GeneratedDeck<MtgCard> = generator.generate()
-        const cards = deck.list().map(card => {
-            return {
-                cost: toString(card.card.cost),
-                name: card.card.name,
-            }
-        })
-        generatedDeck.value = cards
+        generatedDeck.value = generator.generate().list().map(poolToCard)
     }
 </script>
 

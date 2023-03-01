@@ -1,6 +1,5 @@
 import { CardType } from './card-type'
 import { Color } from './color'
-import { ManaCost } from './mana-cost'
 import { Rarity } from './rarity'
 
 export interface MtgCard {
@@ -9,5 +8,5 @@ export interface MtgCard {
     type: CardType
     subtypes: string[]
     colors: Color[]
-    cost: ManaCost[]
+    cost: String
 }

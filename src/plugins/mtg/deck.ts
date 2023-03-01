@@ -36,8 +36,8 @@ export function MtgDeck(size: number): Deck<MtgCard> {
         }
     }
 
-    function list(): CardOccurrence[] {
-        const rawList: { name: string, occurrences: CardOccurrence }[] = []
+    function list(): CardOccurrence<MtgCard>[] {
+        const rawList: { name: string, occurrences: CardOccurrence<MtgCard> }[] = []
         cards.forEach(card => {
             if (rawList.find(item => item.name === card.name)) {
                 return
