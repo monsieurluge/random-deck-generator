@@ -3,10 +3,11 @@ import { Color } from './color'
 import { Rarity } from './rarity'
 
 export interface MtgCard {
+    colors: Color[]
+    convertedManaCost: Number
+    cost: String
     name: string
     rarity: Rarity
-    type: CardType
     subtypes: string[]
-    colors: Color[]
-    cost: String
+    type: CardType
 }

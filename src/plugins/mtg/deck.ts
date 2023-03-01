@@ -1,4 +1,3 @@
-import { CardOccurrence } from '../../generator/card-occurrence'
 import { Deck } from '../../generator/deck'
 import { MtgCard } from './card/card'
 
@@ -36,21 +35,8 @@ export function MtgDeck(size: number): Deck<MtgCard> {
         }
     }
 
-    function list(): CardOccurrence<MtgCard>[] {
-        const rawList: { name: string, occurrences: CardOccurrence<MtgCard> }[] = []
-        cards.forEach(card => {
-            if (rawList.find(item => item.name === card.name)) {
-                return
-            }
-            rawList.push({
-                name: card.name,
-                occurrences: {
-                    card,
-                    total: occurrences(card),
-                },
-            })
-        })
-        return rawList.map(item => item.occurrences)
+    function list(): MtgCard[] {
+        return cards
     }
 
     function occurrences(target: MtgCard): number {
