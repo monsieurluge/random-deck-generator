@@ -3,12 +3,10 @@
         <header class="actions">
             <button class="primary-button" @click="onClick">generate</button>
         </header>
-        <article class="cards">
-            <template v-if="hasCards">
-                <Deck :deck="generatedDeck" />
-            </template>
-            <p v-else>empty list</p>
-        </article>
+        <template v-if="hasCards">
+            <Deck :deck="generatedDeck" />
+        </template>
+        <p v-else>empty list</p>
     </main>
 </template>
 

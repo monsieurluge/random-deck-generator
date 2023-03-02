@@ -20,8 +20,8 @@
 
 <style scoped>
     .card {
-        width: 350px;
         /*aspect-ratio: 2.5/3.5;*/
+        width: 350px;
         padding: 8px;
         color: #313131;
         background-color: white;
