@@ -13,13 +13,13 @@
 <script setup lang="ts">
     import { ref } from 'vue';
     import type { Ref } from 'vue';
+    import { computed } from '@vue/reactivity';
     import { MtgCard } from './plugins/mtg/card/card';
-    import Deck from './ui/generator/Deck.vue'
     import { MtgCardCollection } from './plugins/mtg/card-collection';
     import { CardPool } from './plugins/mtg/card-pool';
     import { BoosterDraftGenerator } from './plugins/mtg/generator/booster-draft-generator';
-    import collection from './cards-collections/my-mtg-collection.json'
-    import { computed } from '@vue/reactivity';
+    import collection from './plugins/mtg/cards/my-afr.collection.json'
+    import Deck from './ui/generator/Deck.vue'
 
     const generatedDeck: Ref<MtgCard[]> = ref([])
     const pools: CardPool[] = collection.pools
