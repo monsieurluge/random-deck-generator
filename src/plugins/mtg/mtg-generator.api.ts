@@ -1,9 +1,9 @@
 import { Deck } from '../../generator/deck'
 import { Generator } from '../../generator/generator'
 import { GeneratorApi } from '../../ui/api/generator.api'
-import { MtgCardCollection } from './card-collection'
 import { MtgCard } from './card/card'
-import collection from './cards/my-afr.collection.json'
+import { MtgCardCollection } from './collection/card-collection'
+import collection from './collection/my-afr.collection.json'
 import { BoosterDraftGenerator } from './generator/booster-draft-generator'
 
 export class MtgGeneratorApi implements GeneratorApi<MtgCard> {

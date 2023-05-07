@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-    import { ref } from 'vue'
+    import { onMounted, ref } from 'vue'
     import type { Ref } from 'vue'
     import { computed } from '@vue/reactivity'
     import { MtgCard } from './plugins/mtg/card/card'
@@ -27,6 +27,11 @@
         const deck = await api.generate()
         generatedDeck.value = deck.list()
     }
+
+    onMounted(async () => {
+        const deck = await api.generate()
+        generatedDeck.value = deck.list()
+    })
 </script>
 
 <style scoped lang="css">

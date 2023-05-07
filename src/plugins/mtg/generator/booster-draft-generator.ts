@@ -1,10 +1,11 @@
+import { CardCollection } from '../../../collection/collection'
+import { and, not } from '../../../collection/constraint'
 import { Deck } from '../../../generator/deck'
 import { Generator } from '../../../generator/generator'
-import { CardCollection } from '../card-collection'
 import { Plains } from '../card/basic-land'
 import { MtgCard } from '../card/card'
-import { and, colorIs, Constraint, not, ofType } from '../constraints'
 import { MtgDeck } from '../deck'
+import { colorIs, MtgConstraint, ofType } from './constraints'
 
 /**
  * simulates a 8 player draft, with set boosters
@@ -35,8 +36,8 @@ import { MtgDeck } from '../deck'
  *   - 6,2% R
  *   - 1,0% MR
  */
-export function BoosterDraftGenerator(collection: CardCollection): Generator<MtgCard> {
-    const whiteCardNotLand: Constraint = and([
+export function BoosterDraftGenerator(collection: CardCollection<MtgCard>): Generator<MtgCard> {
+    const whiteCardNotLand: MtgConstraint = and([
         colorIs('white'),
         not(ofType('land')),
     ])

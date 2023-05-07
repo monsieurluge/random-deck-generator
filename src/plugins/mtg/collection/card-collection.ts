@@ -1,10 +1,10 @@
-import { CardCollection } from '../../generator/collection'
-import { CardPool } from './card-pool'
-import { MtgCard } from './card/card'
-import { Constraint } from './constraints'
+import { CardCollection } from '../../../collection/collection'
+import { CardPool } from '../card-pool'
+import { MtgCard } from '../card/card'
+import { MtgConstraint } from '../generator/constraints'
 
 export function MtgCardCollection(pools: CardPool[]): CardCollection<MtgCard> {
-    function pick(constraint: Constraint): MtgCard {
+    function pick(constraint: MtgConstraint): MtgCard {
         const filteredPools: CardPool[] = pools.filter((pool: CardPool) => constraint(pool.card))
         if (filteredPools.length === 0) {
             throw Error('there is no card in the pool for this constraint')
