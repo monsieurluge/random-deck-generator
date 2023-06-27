@@ -41,7 +41,7 @@
     }
 
     .deck {
-        margin: 0 auto;
+        margin: 34px auto;
     }
 
     footer {
