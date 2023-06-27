@@ -1,13 +1,13 @@
 <template>
     <main>
-        <header class="actions">
-            <button class="primary-button" @click="onClick">generate</button>
-        </header>
         <template v-if="hasCards">
-            <Deck :deck="generatedDeck" />
+            <Deck class="deck" :deck="generatedDeck" />
         </template>
         <p v-else>empty list</p>
     </main>
+    <footer class="actions">
+        <button class="primary-button" @click="onClick">generate</button>
+    </footer>
 </template>
 
 <script setup lang="ts">
@@ -36,12 +36,29 @@
 
 <style scoped lang="css">
     main {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .deck {
+        margin: 0 auto;
+    }
+
+    footer {
+        flex-shrink: 0;
+        flex-grow: 0;
+        height: 50px;
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #44413c;
+        background-color: #3b3a36;
     }
 
     button.primary-button {
-        padding: 5px 1rem;
+        height: 34px;
+        padding: 6px 18px;
     }
 </style>

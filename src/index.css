@@ -8,7 +8,20 @@
     --white-background-color: #f8f6dc;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
+    margin: 0;
     color: ivory;
-    background-color: #313131;
+    background-color: #3b3a36;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
