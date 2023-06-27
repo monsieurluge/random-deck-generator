@@ -1,6 +1,5 @@
-import { Deck } from '../../generator/deck'
-import { Generator } from '../../generator/generator'
 import { GeneratorApi } from '../../ui/api/generator.api'
+import { Deck, Generator } from '../deck-generator'
 import { MtgCard } from './card/card'
 import { MtgCardCollection } from './collection/card-collection'
 import collection from './collection/my-afr.collection.json'
