@@ -1,8 +1,3 @@
-export type CardOccurrence<T> = {
-    card: T
-    total: number
-}
-
 export interface Deck <T> {
     add(card: T): void
     addMany(total: number, card: T): void

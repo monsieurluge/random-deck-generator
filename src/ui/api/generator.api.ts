@@ -1,5 +1,5 @@
-import { Deck } from '../../generator/deck'
+import { Deck } from '../../plugins/deck-generator'
 
 export interface GeneratorApi<T> {
-    generate(): Promise<Deck<T>>
+    generate(): Deck<T>
 }

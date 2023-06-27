@@ -14,7 +14,7 @@ export class MtgGeneratorApi implements GeneratorApi<MtgCard> {
         )
     }
 
-    public async generate(): Promise<Deck<MtgCard>> {
+    public generate(): Deck<MtgCard> {
         return this.generator.generate()
     }
 }
