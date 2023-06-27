@@ -14,8 +14,8 @@
     import { onMounted, ref } from 'vue'
     import type { Ref } from 'vue'
     import { computed } from '@vue/reactivity'
-    import { MtgCard } from './plugins/mtg/card/card'
-    import { MtgGeneratorApi } from './plugins/mtg/mtg-generator.api'
+    import { MtgCard } from './plugins/magic-the-gathering/card/card'
+    import { MtgGeneratorApi } from './plugins/magic-the-gathering/generator.api'
     import { GeneratorApi } from './ui/api/generator.api'
     import Deck from './ui/generator/Deck.vue'
 
