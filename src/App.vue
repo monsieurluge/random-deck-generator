@@ -5,32 +5,36 @@
         </template>
         <p v-else>empty list</p>
     </main>
-    <footer class="actions">
-        <button class="primary-button" @click="onClick">generate</button>
+    <footer>
+        <GenerateButton @click="onGenerateClicked" />
     </footer>
 </template>
 
 <script setup lang="ts">
-    import { onMounted, ref } from 'vue'
     import type { Ref } from 'vue'
+    import { onMounted, ref } from 'vue'
     import { computed } from '@vue/reactivity'
+    import { GeneratorApi } from './ui/api/generator.api'
     import { MtgCard } from './plugins/magic-the-gathering/card/card'
     import { MtgGeneratorApi } from './plugins/magic-the-gathering/generator.api'
-    import { GeneratorApi } from './ui/api/generator.api'
     import Deck from './ui/generator/Deck.vue'
+    import GenerateButton from './ui/buttons/GenerateButton.vue'
 
     const api: GeneratorApi<MtgCard> = new MtgGeneratorApi()
     const generatedDeck: Ref<MtgCard[]> = ref([])
     const hasCards = computed(() => generatedDeck.value.length > 0)
 
-    async function onClick() {
+    async function generateDeck() {
         const deck = await api.generate()
         generatedDeck.value = deck.list()
     }
 
+    async function onGenerateClicked() {
+        generateDeck();
+    }
+
     onMounted(async () => {
-        const deck = await api.generate()
-        generatedDeck.value = deck.list()
+        generateDeck();
     })
 </script>
 
@@ -55,10 +59,5 @@
         align-items: center;
         border-top: 1px solid #44413c;
         background-color: #3b3a36;
-    }
-
-    button.primary-button {
-        height: 34px;
-        padding: 6px 18px;
     }
 </style>
