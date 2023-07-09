@@ -18,8 +18,8 @@
 
 <script setup lang="ts">
     import { computed } from 'vue'
-    import { multiSort, sortBy } from '../../libs/sort'
-    import { CheckIdentityMethod, stackItems } from '../../libs/stack'
+    import { multiSort, sortBy } from '../../../libs/sort'
+    import { CheckIdentityMethod, stackItems } from '../../../libs/stack'
     import CardComponent from './Card.vue'
 
     interface Card {

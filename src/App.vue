@@ -12,12 +12,12 @@
     import type { Ref } from 'vue'
     import { ref } from 'vue'
     import { computed } from '@vue/reactivity'
-    import { GeneratorApi } from './ui/api/generator.api'
+    import { GeneratorApi } from './api/generator.api'
     import { MtgCard } from './plugins/magic-the-gathering/card/card'
     import { MtgGeneratorApi } from './plugins/magic-the-gathering/generator.api'
-    import Deck from './ui/generator/Deck.vue'
+    import Deck from './plugins/magic-the-gathering/ui/Deck.vue'
     import AppDescription from './ui/AppDescription.vue'
-    import GenerateButton from './ui/buttons/GenerateButton.vue'
+    import GenerateButton from './ui/GenerateButton.vue'
 
     const api: GeneratorApi<MtgCard> = new MtgGeneratorApi()
     const generatedDeck: Ref<MtgCard[]> = ref([])
