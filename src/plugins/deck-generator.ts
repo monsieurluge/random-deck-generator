@@ -1,5 +1,6 @@
+import { CardCollection } from './card-collection'
 import { Deck } from './deck'
 
 export interface DeckGenerator <T> {
-    generate(): Deck<T>
+    deckFrom(collection: CardCollection<T>): Deck<T>
 }

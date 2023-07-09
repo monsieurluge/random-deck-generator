@@ -21,14 +21,14 @@
     import AppDescription from '_ui/AppDescription.vue'
     import GenerateButton from '_ui/GenerateButton.vue'
 
-    const generator: DeckGenerator<MtgCard> = BoosterDraftGenerator(
-        MtgCardCollection(collection.pools)
-    )
+    const generator: DeckGenerator<MtgCard> = BoosterDraftGenerator()
     const generatedDeck: Ref<MtgCard[]> = ref([])
     const hasCards = computed(() => generatedDeck.value.length > 0)
 
     async function generateDeck() {
-        const deck = await generator.generate()
+        const deck = await generator.deckFrom(
+            MtgCardCollection(collection.pools)
+        )
         generatedDeck.value = deck.list()
     }
 

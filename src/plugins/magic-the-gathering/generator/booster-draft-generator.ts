@@ -36,13 +36,13 @@ import { MtgDeck } from './deck'
  *   - 6,2% R
  *   - 1,0% MR
  */
-export function BoosterDraftGenerator(collection: CardCollection<MtgCard>): DeckGenerator<MtgCard> {
+export function BoosterDraftGenerator(): DeckGenerator<MtgCard> {
     const whiteCardNotLand: MtgConstraint = and([
         colorIs('white'),
         not(ofType('land')),
     ])
 
-    function generate(): Deck<MtgCard> {
+    function deckFrom(collection: CardCollection<MtgCard>): Deck<MtgCard> {
         const size = 40
         const deck = MtgDeck(size)
         deck.addMany(16, Plains)
@@ -53,6 +53,6 @@ export function BoosterDraftGenerator(collection: CardCollection<MtgCard>): Deck
     }
 
     return Object.freeze({
-        generate,
+        deckFrom,
     })
 }
