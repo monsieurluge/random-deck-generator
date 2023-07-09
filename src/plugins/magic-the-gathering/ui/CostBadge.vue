@@ -29,7 +29,7 @@
 </script>
 
 <style scoped lang="css">
-    @import '../../../index.css';
+    @import '_root/index.css';
 
     .badge {
         width: 20px;

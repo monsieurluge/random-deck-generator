@@ -1,4 +1,4 @@
-import { and, not } from '../../../libs/constraint'
+import { and, not } from '_libs/constraint'
 import { CardCollection } from '../../card-collection'
 import { Deck, Generator } from '../../deck-generator'
 import { Plains } from '../card/basic-land'

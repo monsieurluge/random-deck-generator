@@ -1,4 +1,4 @@
-import { GeneratorApi } from '../../ui/api/generator.api'
+import { GeneratorApi } from '_api/generator.api'
 import { Deck, Generator } from '../deck-generator'
 import { MtgCard } from './card/card'
 import { MtgCardCollection } from './collection/card-collection'

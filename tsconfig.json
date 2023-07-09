@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "incremental": true,
@@ -14,6 +15,13 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "build",
+    "paths": {
+      "_api/*": ["src/api/*"],
+      "_libs/*": ["src/libs/*"],
+      "_plugins/*": ["src/plugins/*"],
+      "_root/*": ["src/*"],
+      "_ui/*": ["src/ui/*"]
+    },
     "resolveJsonModule": true,
     "rootDir": "src",
     "skipLibCheck": true,
