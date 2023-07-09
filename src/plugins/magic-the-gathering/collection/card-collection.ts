@@ -1,6 +1,6 @@
 import { CardCollection } from '../../card-collection'
-import { CardPool } from '../card-pool'
 import { MtgCard } from '../card/card'
+import { CardPool } from '../collection/card-pool'
 import { MtgConstraint } from '../generator/constraints'
 
 export function MtgCardCollection(pools: CardPool[]): CardCollection<MtgCard> {

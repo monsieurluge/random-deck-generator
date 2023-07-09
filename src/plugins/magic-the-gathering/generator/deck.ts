@@ -1,5 +1,5 @@
 import { Deck } from '_plugins/deck'
-import { MtgCard } from './card/card'
+import { MtgCard } from '../card/card'
 
 export function MtgDeck(size: number): Deck<MtgCard> {
     const cards: MtgCard[] = []

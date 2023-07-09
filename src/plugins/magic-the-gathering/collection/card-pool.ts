@@ -1,4 +1,4 @@
-import { MtgCard } from './card/card'
+import { MtgCard } from '../card/card'
 
 export type CardPool = {
     card: MtgCard

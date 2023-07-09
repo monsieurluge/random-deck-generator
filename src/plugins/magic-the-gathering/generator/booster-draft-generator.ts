@@ -4,8 +4,8 @@ import { Deck } from '_plugins/deck'
 import { DeckGenerator } from '_plugins/deck-generator'
 import { Plains } from '../card/basic-land'
 import { MtgCard } from '../card/card'
-import { MtgDeck } from '../deck'
 import { colorIs, MtgConstraint, ofType } from './constraints'
+import { MtgDeck } from './deck'
 
 /**
  * simulates a 8 player draft, with set boosters
