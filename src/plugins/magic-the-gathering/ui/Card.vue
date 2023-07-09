@@ -21,12 +21,13 @@
 <style scoped>
     .card {
         /*aspect-ratio: 2.5/3.5;*/
-        width: 350px;
+        width: 360px;
         padding: 8px;
         color: #313131;
         background-color: white;
         border-radius: 5px;
         box-shadow: 0 0 10px #00000050;
+        box-sizing: border-box;
     }
 
     .card-header {

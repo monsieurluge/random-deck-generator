@@ -44,7 +44,7 @@
     .deck {
         margin: 0;
         padding: 0;
-        width: 400px;
+        width: 360px;
         list-style-type: none;
     }
 
@@ -67,7 +67,7 @@
     .nb-badge {
         position: absolute;
         top: 13px;
-        right: 2px;
+        right: -34px;
         margin: 0;
         padding: 0;
         width: 1.8em;
