@@ -1,6 +1,7 @@
 import { and, not } from '_libs/constraint'
-import { CardCollection } from '../../card-collection'
-import { Deck, Generator } from '../../deck-generator'
+import { CardCollection } from '_plugins/card-collection'
+import { Deck } from '_plugins/deck'
+import { DeckGenerator } from '_plugins/deck-generator'
 import { Plains } from '../card/basic-land'
 import { MtgCard } from '../card/card'
 import { MtgDeck } from '../deck'
@@ -35,7 +36,7 @@ import { colorIs, MtgConstraint, ofType } from './constraints'
  *   - 6,2% R
  *   - 1,0% MR
  */
-export function BoosterDraftGenerator(collection: CardCollection<MtgCard>): Generator<MtgCard> {
+export function BoosterDraftGenerator(collection: CardCollection<MtgCard>): DeckGenerator<MtgCard> {
     const whiteCardNotLand: MtgConstraint = and([
         colorIs('white'),
         not(ofType('land')),

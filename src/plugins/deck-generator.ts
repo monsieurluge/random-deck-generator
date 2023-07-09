@@ -1,14 +1,5 @@
-export interface Deck <T> {
-    add(card: T): void
-    addMany(total: number, card: T): void
-    count(): number
-    list(): T[]
-}
+import { Deck } from './deck'
 
-export interface Card {
-    name(): string
-}
-
-export interface Generator <T> {
+export interface DeckGenerator <T> {
     generate(): Deck<T>
 }

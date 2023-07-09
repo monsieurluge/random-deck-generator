@@ -12,19 +12,23 @@
     import type { Ref } from 'vue'
     import { ref } from 'vue'
     import { computed } from '@vue/reactivity'
-    import { GeneratorApi } from '_api/generator.api'
+    import { DeckGenerator } from '_plugins/deck-generator'
     import { MtgCard } from '_plugins/magic-the-gathering/card/card'
-    import { MtgGeneratorApi } from '_plugins/magic-the-gathering/generator.api'
+    import { BoosterDraftGenerator } from '_plugins/magic-the-gathering/generator/booster-draft-generator'
     import Deck from '_plugins/magic-the-gathering/ui/Deck.vue'
+    import { MtgCardCollection } from '_plugins/magic-the-gathering/collection/card-collection'
+    import collection from '_plugins/magic-the-gathering/collection/my-afr.collection.json'
     import AppDescription from '_ui/AppDescription.vue'
     import GenerateButton from '_ui/GenerateButton.vue'
 
-    const api: GeneratorApi<MtgCard> = new MtgGeneratorApi()
+    const generator: DeckGenerator<MtgCard> = BoosterDraftGenerator(
+        MtgCardCollection(collection.pools)
+    )
     const generatedDeck: Ref<MtgCard[]> = ref([])
     const hasCards = computed(() => generatedDeck.value.length > 0)
 
     async function generateDeck() {
-        const deck = await api.generate()
+        const deck = await generator.generate()
         generatedDeck.value = deck.list()
     }
 
