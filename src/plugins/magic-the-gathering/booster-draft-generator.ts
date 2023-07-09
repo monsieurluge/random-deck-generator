@@ -2,9 +2,9 @@ import { and, not } from '_libs/constraint'
 import { CardCollection } from '_plugins/card-collection'
 import { Deck } from '_plugins/deck'
 import { DeckGenerator } from '_plugins/deck-generator'
-import { Plains } from '../card/basic-land'
-import { MtgCard } from '../card/card'
-import { colorIs, MtgConstraint, ofType } from './constraints'
+import { Plains } from './card/basic-land'
+import { MtgCard } from './card/card'
+import { colorIs, MtgConstraint, ofType } from './card/constraints'
 import { MtgDeck } from './deck'
 
 /**

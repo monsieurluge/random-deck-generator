@@ -1,7 +1,7 @@
-import { CardCollection } from '../../card-collection'
+import { CardCollection } from '_plugins/card-collection'
 import { MtgCard } from '../card/card'
-import { CardPool } from '../collection/card-pool'
-import { MtgConstraint } from '../generator/constraints'
+import { MtgConstraint } from '../card/constraints'
+import { CardPool } from './card-pool'
 
 export function MtgCardCollection(pools: CardPool[]): CardCollection<MtgCard> {
     function pick(constraint: MtgConstraint): MtgCard {

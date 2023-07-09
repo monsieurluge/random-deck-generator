@@ -14,7 +14,7 @@
     import { computed } from '@vue/reactivity'
     import { DeckGenerator } from '_plugins/deck-generator'
     import { MtgCard } from '_plugins/magic-the-gathering/card/card'
-    import { BoosterDraftGenerator } from '_plugins/magic-the-gathering/generator/booster-draft-generator'
+    import { BoosterDraftGenerator } from '_plugins/magic-the-gathering/booster-draft-generator'
     import Deck from '_plugins/magic-the-gathering/ui/Deck.vue'
     import { MtgCardCollection } from '_plugins/magic-the-gathering/collection/card-collection'
     import collection from '_plugins/magic-the-gathering/collection/my-afr.collection.json'

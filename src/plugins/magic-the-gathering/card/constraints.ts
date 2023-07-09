@@ -1,7 +1,7 @@
 import { Constraint } from '_libs/constraint'
-import { MtgCard } from '../card/card'
-import { CardType } from '../card/card-type'
-import { Color } from '../card/color'
+import { MtgCard } from './card'
+import { CardType } from './card-type'
+import { Color } from './color'
 
 export type MtgConstraint = Constraint<MtgCard>
 
