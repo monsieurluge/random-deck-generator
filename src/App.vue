@@ -1,9 +1,7 @@
 <template>
     <main>
-        <template v-if="hasCards">
-            <Deck class="deck" :deck="generatedDeck" />
-        </template>
-        <p v-else>empty list</p>
+        <Deck v-if="hasCards" class="deck" :deck="generatedDeck" />
+        <AppDescription v-else />
     </main>
     <footer>
         <GenerateButton @click="onGenerateClicked" />
@@ -12,12 +10,13 @@
 
 <script setup lang="ts">
     import type { Ref } from 'vue'
-    import { onMounted, ref } from 'vue'
+    import { ref } from 'vue'
     import { computed } from '@vue/reactivity'
     import { GeneratorApi } from './ui/api/generator.api'
     import { MtgCard } from './plugins/magic-the-gathering/card/card'
     import { MtgGeneratorApi } from './plugins/magic-the-gathering/generator.api'
     import Deck from './ui/generator/Deck.vue'
+    import AppDescription from './ui/AppDescription.vue'
     import GenerateButton from './ui/buttons/GenerateButton.vue'
 
     const api: GeneratorApi<MtgCard> = new MtgGeneratorApi()
@@ -32,10 +31,6 @@
     async function onGenerateClicked() {
         generateDeck();
     }
-
-    onMounted(async () => {
-        generateDeck();
-    })
 </script>
 
 <style scoped lang="css">
