@@ -17,6 +17,7 @@
     "outDir": "build",
     "paths": {
       "_api/*": ["src/api/*"],
+      "_generator/*": ["src/generator/*"],
       "_libs/*": ["src/libs/*"],
       "_plugins/*": ["src/plugins/*"],
       "_root/*": ["src/*"],

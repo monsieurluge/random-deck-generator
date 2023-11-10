@@ -12,7 +12,7 @@
     import type { Ref } from 'vue'
     import { ref } from 'vue'
     import { computed } from '@vue/reactivity'
-    import { DeckGenerator } from '_plugins/deck-generator'
+    import { DeckGenerator } from '_generator/deck-generator'
     import { MtgCard } from '_plugins/magic-the-gathering/card/card'
     import { DumbGenerator } from '_plugins/magic-the-gathering/dumb-generator'
     import Deck from '_plugins/magic-the-gathering/ui/Deck.vue'

@@ -1,4 +1,4 @@
-import { CardCollection } from '_plugins/card-collection'
+import { CardCollection } from '_generator/card-collection'
 import { MtgCard } from '../card/card'
 import { MtgConstraint } from '../card/constraints'
 import { CardPool } from './card-pool'
