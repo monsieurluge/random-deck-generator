@@ -1,4 +1,4 @@
-import { Constraint } from '_libs/constraint'
+import { Constraint } from '@libs/constraint'
 import { MtgCard } from './card'
 import { CardType } from './card-type'
 import { Color } from './color'

@@ -12,14 +12,14 @@
     import type { Ref } from 'vue'
     import { ref } from 'vue'
     import { computed } from '@vue/reactivity'
-    import { DeckGenerator } from '_generator/deck-generator'
-    import { MtgCard } from '_plugins/magic-the-gathering/card/card'
-    import { DumbGenerator } from '_plugins/magic-the-gathering/dumb-generator'
-    import Deck from '_plugins/magic-the-gathering/ui/Deck.vue'
-    import { MtgCardCollection } from '_plugins/magic-the-gathering/collection/card-collection'
-    import collection from '_plugins/magic-the-gathering/collection/my-afr.collection.json'
-    import AppDescription from '_ui/AppDescription.vue'
-    import GenerateButton from '_ui/GenerateButton.vue'
+    import { DeckGenerator } from '@generator/deck-generator'
+    import { MtgCard } from '@plugins/magic-the-gathering/card/card'
+    import { DumbGenerator } from '@plugins/magic-the-gathering/dumb-generator'
+    import Deck from '@plugins/magic-the-gathering/ui/Deck.vue'
+    import { MtgCardCollection } from '@plugins/magic-the-gathering/collection/card-collection'
+    import collection from '@plugins/magic-the-gathering/collection/my-afr.collection.json'
+    import AppDescription from '@ui/AppDescription.vue'
+    import GenerateButton from '@ui/GenerateButton.vue'
 
     const generator: DeckGenerator<MtgCard> = DumbGenerator()
     const generatedDeck: Ref<MtgCard[]> = ref([])

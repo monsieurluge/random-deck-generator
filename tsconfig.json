@@ -16,12 +16,12 @@
     "noUnusedParameters": true,
     "outDir": "build",
     "paths": {
-      "_api/*": ["src/api/*"],
-      "_generator/*": ["src/generator/*"],
-      "_libs/*": ["src/libs/*"],
-      "_plugins/*": ["src/plugins/*"],
-      "_root/*": ["src/*"],
-      "_ui/*": ["src/ui/*"]
+      "@api/*": ["src/api/*"],
+      "@generator/*": ["src/generator/*"],
+      "@libs/*": ["src/libs/*"],
+      "@plugins/*": ["src/plugins/*"],
+      "@root/*": ["src/*"],
+      "@ui/*": ["src/ui/*"]
     },
     "resolveJsonModule": true,
     "rootDir": "src",

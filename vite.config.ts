@@ -7,23 +7,27 @@ export default defineConfig({
     resolve: {
         alias: [
             {
-                find: '_api',
+                find: '@api',
                 replacement: pathResolve(__dirname, 'src/api'),
             },
             {
-                find: '_libs',
+                find: '@generator',
+                replacement: pathResolve(__dirname, 'src/generator'),
+            },
+            {
+                find: '@libs',
                 replacement: pathResolve(__dirname, 'src/libs'),
             },
             {
-                find: '_plugins',
+                find: '@plugins',
                 replacement: pathResolve(__dirname, 'src/plugins'),
             },
             {
-                find: '_root',
+                find: '@root',
                 replacement: pathResolve(__dirname, 'src'),
             },
             {
-                find: '_ui',
+                find: '@ui',
                 replacement: pathResolve(__dirname, 'src/ui'),
             },
         ],

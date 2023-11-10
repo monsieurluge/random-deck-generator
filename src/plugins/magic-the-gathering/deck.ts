@@ -1,4 +1,4 @@
-import { Deck } from '_generator/deck'
+import { Deck } from '@generator/deck'
 import { MtgCard } from './card/card'
 
 export function MtgDeck(size: number): Deck<MtgCard> {
