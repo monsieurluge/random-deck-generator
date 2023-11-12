@@ -1,6 +1,3 @@
-export interface Deck <T> {
-    add(card: T): void
-    addMany(total: number, card: T): void
-    count(): number
+export type Deck <T> = {
     list(): T[]
 }

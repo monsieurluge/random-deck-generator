@@ -1,5 +1,5 @@
 import { Constraint } from '@libs/constraint'
 
-export interface CardCollection<T> {
+export type CardCollection<T> = {
     pick(constraint: Constraint<T>): T
 }
