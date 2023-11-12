@@ -17,9 +17,9 @@
     import { DumbGenerator } from '@plugins/magic-the-gathering/dumb-generator'
     import Deck from '@plugins/magic-the-gathering/ui/Deck.vue'
     import { MtgCardCollection } from '@plugins/magic-the-gathering/collection/card-collection'
-    import collection from '@plugins/magic-the-gathering/collection/my-afr.collection.json'
     import AppDescription from '@ui/AppDescription.vue'
     import GenerateButton from '@ui/GenerateButton.vue'
+    import collection from './example-afr.collection.json'
 
     const generator: DeckGenerator<MtgCard> = DumbGenerator()
     const generatedDeck: Ref<MtgCard[]> = ref([])
